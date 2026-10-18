@@ -1,12 +1,26 @@
 # Influencer Rehberi
 
+[![ci](https://github.com/aytacvelipamuk/influencer-rehberi/actions/workflows/ci.yml/badge.svg)](https://github.com/aytacvelipamuk/influencer-rehberi/actions/workflows/ci.yml)
+[![MIT](https://img.shields.io/badge/lisans-MIT-b3134f)](LICENSE)
+[![Canlı](https://img.shields.io/badge/canl%C4%B1-influencer.aytacvelipamuk.com-2a1520)](https://influencer.aytacvelipamuk.com)
+
+![Rehberde arama ve profil](docs/gorseller/demo.gif)
+
 Trendyol satıcılarının ürününü anlatacak influencer'ı bulması için **ücretsiz ve açık kaynak** bir rehber.
 Influencer'ları kategori, takipçi büyüklüğü, etkileşim, kitle kalitesi ve çalıştıkları markalarla arar; mağaza linkinden
 eşleşme raporu üretir.
 
 Canlı örnek: **https://influencer.aytacvelipamuk.com**
 
-[English summary below](#english)
+[English below](#english)
+
+| Giriş | Rehber |
+|---|---|
+| ![Giriş](docs/gorseller/01-giris.jpg) | ![Rehber](docs/gorseller/02-rehber.jpg) |
+| **Profil analizi** | **Eşleşme raporu** |
+| ![Profil](docs/gorseller/03-profil.jpg) | ![Rapor](docs/gorseller/04-rapor.jpg) |
+
+*Görüntülerdeki hesaplar uydurmadır (örnek veri).*
 
 ---
 
@@ -102,8 +116,33 @@ MIT — [LICENSE](LICENSE). Geliştiren: [Aytaç Velipamuk](https://aytacvelipam
 
 ## English
 
-**Influencer Rehberi** is a free, open-source influencer directory for e-commerce sellers (built for Trendyol, Türkiye).
-Search and filter creators by category, follower tier, engagement and brand collaborations; view recent posts,
-highlights and an **audience-quality estimate**; collect your own data with a **Bright Data** API key
-(`npm run topla`), or reuse the pure-TypeScript scoring library (`lib/scoring`). Runs out of the box with synthetic
-sample data (`npm run dev`). UI copy is Turkish. MIT licensed.
+**Influencer Rehberi** ("influencer directory") is a free, open-source tool that helps e-commerce sellers — built for
+Trendyol, Türkiye's largest marketplace — find the right creators for their products. The UI is in Turkish; the code,
+method and data contract are documented below and in `docs/`.
+
+**What you get**
+
+- **Directory** — search by name, handle, brand or bio; filter by category, follower tier (nano → mega), platform and
+  engagement; sort by followers, engagement or brand experience.
+- **Profile analysis** — recent posts and Reels (with images), pinned story highlights, posting rhythm, content mix,
+  collaborations, follower history and an **audience-quality estimate** (0–100) built from seven public signals
+  (engagement vs. follower-band expectation, comment authenticity, comment/like ratio, following ratio, follower spikes,
+  like distribution, Reels views). No score is given from fewer than three signals.
+- **Match report** — a seller pastes their store link; the report page ranks creators with reasons.
+- **Scoring library** (`lib/scoring`) — dependency-free TypeScript, unit-tested; use it in your own project.
+- **Collector** (`npm run topla`) — bring your own [Bright Data](https://brightdata.com) API key and a list of Instagram
+  handles; it collects profiles, posts and Reels (~$0.03 per account at Oct 2026 prices), shows a cost estimate first
+  (`--kuru`), and resumes interrupted jobs without paying twice (`--devam`).
+
+**Quick start**
+
+```bash
+git clone https://github.com/aytacvelipamuk/influencer-rehberi && cd influencer-rehberi
+npm install && npm run dev                 # runs with synthetic sample data
+cp .env.example .env                       # add BRIGHTDATA_API_KEY
+cp hesaplar.ornek.csv hesaplar.csv         # one Instagram handle per line
+npm run topla -- --kuru && npm run topla   # estimate, then collect → data/influencers.json
+```
+
+Not included on purpose: real or personal data, code that reads Trendyol directly, and 24-hour Instagram stories (they
+require a login). Not affiliated with Trendyol, Instagram, Meta or Bright Data. MIT licensed.

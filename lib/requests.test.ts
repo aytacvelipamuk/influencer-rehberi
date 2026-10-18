@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { parseEmail, parseHandle, parseStoreUrl } from "./requests";
+import { cleanUtm, parseEmail, parseHandle, parseStoreUrl } from "./requests";
 
 describe("parseStoreUrl", () => {
   it("reads the merchant id from a store path", () => {
@@ -16,6 +16,13 @@ describe("parseStoreUrl", () => {
     expect(parseStoreUrl("https://www.hepsiburada.com/magaza/x-m-123").ok).toBe(false);
     expect(parseStoreUrl("https://www.trendyol.com/ornek-marka/urun-p-123").ok).toBe(false);
     expect(parseStoreUrl("https://evil.com/?trendyol.com/magaza/x-m-1234").ok).toBe(false);
+  });
+});
+
+describe("cleanUtm", () => {
+  it("keeps safe utm values and drops anything else", () => {
+    expect(cleanUtm({ utm_source: "bulten", utm_medium: "<script>", utm_campaign: "influencer-rehberi", x: "y" }))
+      .toEqual({ utm_source: "bulten", utm_campaign: "influencer-rehberi" });
   });
 });
 

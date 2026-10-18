@@ -82,14 +82,17 @@
    "evidence": "konu",
    "reasons": [
     "Örnek gerekçe: rakip markayla çalışmış",
-    "Etkileşim %3.39",
+    "Etkileşim %2.08",
     "Takipçi büyüklüğü mağazanın ölçeğine uygun"
    ],
    "warnings": [],
-   "brands": [],
-   "followers": 16264,
-   "tier": "mikro",
-   "er": 3.39
+   "brands": [
+    "Lezzet Atölyesi",
+    "FitHat"
+   ],
+   "followers": 52790,
+   "tier": "orta",
+   "er": 2.08
   },
   {
    "handle": "ornek.selinaydin",
@@ -98,17 +101,16 @@
    "evidence": "arama",
    "reasons": [
     "Örnek gerekçe: rakip markayla çalışmış",
-    "Etkileşim %2.92",
+    "Etkileşim %2.87",
     "Takipçi büyüklüğü mağazanın ölçeğine uygun"
    ],
    "warnings": [],
    "brands": [
-    "Pamuk Bebe",
     "Örnek Kozmetik"
    ],
-   "followers": 72485,
+   "followers": 245510,
    "tier": "orta",
-   "er": 2.92
+   "er": 2.87
   },
   {
    "handle": "ornek.mertdemir",
@@ -117,17 +119,17 @@
    "evidence": "marka_zayif",
    "reasons": [
     "Örnek gerekçe: rakip markayla çalışmış",
-    "Etkileşim %2.51",
+    "Etkileşim %1.69",
     "Takipçi büyüklüğü mağazanın ölçeğine uygun"
    ],
    "warnings": [],
    "brands": [
-    "MiniAdım",
-    "Kumaş & Co"
+    "Örnek Kozmetik",
+    "MiniAdım"
    ],
-   "followers": 2851071,
+   "followers": 1133169,
    "tier": "mega",
-   "er": 2.51
+   "er": 1.69
   },
   {
    "handle": "ornek.canozturk",
@@ -136,17 +138,14 @@
    "evidence": "segment",
    "reasons": [
     "Örnek gerekçe: rakip markayla çalışmış",
-    "Etkileşim %3.1",
+    "Etkileşim %3.27",
     "Takipçi büyüklüğü mağazanın ölçeğine uygun"
    ],
    "warnings": [],
-   "brands": [
-    "MiniAdım",
-    "EvGüzel"
-   ],
-   "followers": 41713,
-   "tier": "mikro",
-   "er": 3.1
+   "brands": [],
+   "followers": 198540,
+   "tier": "orta",
+   "er": 3.27
   },
   {
    "handle": "ornek.elifarslan",
@@ -155,17 +154,17 @@
    "evidence": "marka",
    "reasons": [
     "Örnek gerekçe: rakip markayla çalışmış",
-    "Etkileşim %3.73",
+    "Etkileşim %3.39",
     "Takipçi büyüklüğü mağazanın ölçeğine uygun"
    ],
    "warnings": [],
    "brands": [
-    "Pamuk Bebe",
-    "TeknoKare"
+    "Lezzet Atölyesi",
+    "EvGüzel"
    ],
-   "followers": 5283,
-   "tier": "nano",
-   "er": 3.73
+   "followers": 50999,
+   "tier": "orta",
+   "er": 3.39
   },
   {
    "handle": "ornek.burakkoc",
@@ -174,16 +173,17 @@
    "evidence": "konu",
    "reasons": [
     "Örnek gerekçe: rakip markayla çalışmış",
-    "Etkileşim %0.44",
+    "Etkileşim %0.71",
     "Takipçi büyüklüğü mağazanın ölçeğine uygun"
    ],
    "warnings": [],
    "brands": [
+    "EvGüzel",
     "Pamuk Bebe"
    ],
-   "followers": 36342,
+   "followers": 35773,
    "tier": "mikro",
-   "er": 0.44
+   "er": 0.71
   },
   {
    "handle": "ornek.aysepolat",
@@ -192,17 +192,17 @@
    "evidence": "arama",
    "reasons": [
     "Örnek gerekçe: rakip markayla çalışmış",
-    "Etkileşim %5.78",
+    "Etkileşim %2.47",
     "Takipçi büyüklüğü mağazanın ölçeğine uygun"
    ],
    "warnings": [],
    "brands": [
-    "EvGüzel",
+    "TeknoKare",
     "Kumaş & Co"
    ],
-   "followers": 2956909,
-   "tier": "mega",
-   "er": 5.78
+   "followers": 18983,
+   "tier": "mikro",
+   "er": 2.47
   }
  ]
 }

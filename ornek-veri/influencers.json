@@ -102,9 +102,76 @@
       }
      ]
     },
-    "recent": [],
+    "recent": [
+     {
+      "url": "https://example.com/p/ornek.eceyildiz-0",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 2689,
+      "comments": 91,
+      "views": 27500,
+      "posted_at": "2026-10-15T10:00:00+00:00",
+      "paid": false,
+      "caption": "Yeni sezon kombin önerileri (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.eceyildiz-1",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 2983,
+      "comments": 100,
+      "views": null,
+      "posted_at": "2026-10-13T10:00:00+00:00",
+      "paid": false,
+      "caption": "Haftalık cilt bakımı rutinim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.eceyildiz-2",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 1904,
+      "comments": 94,
+      "views": 25303,
+      "posted_at": "2026-10-11T10:00:00+00:00",
+      "paid": true,
+      "caption": "Kutudan çıkanlar: bu ay denediklerim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.eceyildiz-3",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 2816,
+      "comments": 81,
+      "views": null,
+      "posted_at": "2026-10-09T10:00:00+00:00",
+      "paid": false,
+      "caption": "Mutfakta 10 dakikalık tarif (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.eceyildiz-4",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 2645,
+      "comments": 94,
+      "views": 22682,
+      "posted_at": "2026-10-07T10:00:00+00:00",
+      "paid": false,
+      "caption": "Ev düzeni için küçük fikirler (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.eceyildiz-5",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 1863,
+      "comments": 112,
+      "views": null,
+      "posted_at": "2026-10-05T10:00:00+00:00",
+      "paid": false,
+      "caption": "Takipçi soruları (örnek)"
+     }
+    ],
     "rhythm": {
-     "per_week": 2.9,
+     "per_week": 4.8,
      "last_post_at": "2026-10-15T10:00:00+00:00"
     },
     "mix": {
@@ -113,7 +180,7 @@
      "Image": 2
     },
     "reels_avg_views": 29677,
-    "paid_share": 16,
+    "paid_share": 5,
     "partners": [],
     "posts_measured": 12,
     "followers_history": [],
@@ -124,30 +191,33 @@
   {
    "handle": "ornek.denizkaya",
    "platform": "instagram",
-   "pool": "bagimsiz",
+   "pool": "trendyol",
    "display_name": "Deniz Kaya",
-   "followers": 16264,
-   "tier": "mikro",
-   "er": 3.39,
+   "followers": 52790,
+   "tier": "orta",
+   "er": 2.08,
    "er_posts": 12,
    "segments": [
-    "spor",
-    "yemek"
+    "teknoloji",
+    "guzellik_bakim"
    ],
    "marketplaces": [
     "trendyol"
    ],
    "verified": false,
-   "bio": "Örnek hesap · Fitness & spor içerikleri. Gerçek kişi değildir.",
+   "bio": "Örnek hesap · Teknoloji içerikleri. Gerçek kişi değildir.",
    "business_category": null,
    "collection_url": null,
-   "brands": [],
+   "brands": [
+    "Lezzet Atölyesi",
+    "FitHat"
+   ],
    "avatar": null,
    "profile_url": "https://example.com/ornek.denizkaya",
    "first_seen_at": "2026-10-01T00:00:00+00:00",
    "analysis": {
     "quality": {
-     "score": 80,
+     "score": 94,
      "label": "Örnek",
      "components": [
       {
@@ -176,9 +246,76 @@
       }
      ]
     },
-    "recent": [],
+    "recent": [
+     {
+      "url": "https://example.com/p/ornek.denizkaya-0",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 1062,
+      "comments": 62,
+      "views": 27885,
+      "posted_at": "2026-10-15T10:00:00+00:00",
+      "paid": false,
+      "caption": "Yeni sezon kombin önerileri (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.denizkaya-1",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 986,
+      "comments": 59,
+      "views": null,
+      "posted_at": "2026-10-13T10:00:00+00:00",
+      "paid": false,
+      "caption": "Haftalık cilt bakımı rutinim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.denizkaya-2",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 1278,
+      "comments": 67,
+      "views": 21646,
+      "posted_at": "2026-10-11T10:00:00+00:00",
+      "paid": true,
+      "caption": "Kutudan çıkanlar: bu ay denediklerim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.denizkaya-3",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 821,
+      "comments": 90,
+      "views": null,
+      "posted_at": "2026-10-09T10:00:00+00:00",
+      "paid": false,
+      "caption": "Mutfakta 10 dakikalık tarif (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.denizkaya-4",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 926,
+      "comments": 88,
+      "views": 25467,
+      "posted_at": "2026-10-07T10:00:00+00:00",
+      "paid": false,
+      "caption": "Ev düzeni için küçük fikirler (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.denizkaya-5",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 924,
+      "comments": 77,
+      "views": null,
+      "posted_at": "2026-10-05T10:00:00+00:00",
+      "paid": false,
+      "caption": "Takipçi soruları (örnek)"
+     }
+    ],
     "rhythm": {
-     "per_week": 0.8,
+     "per_week": 2,
      "last_post_at": "2026-10-15T10:00:00+00:00"
     },
     "mix": {
@@ -186,8 +323,8 @@
      "Carousel": 4,
      "Image": 2
     },
-    "reels_avg_views": 6506,
-    "paid_share": 22,
+    "reels_avg_views": 21116,
+    "paid_share": 30,
     "partners": [],
     "posts_measured": 12,
     "followers_history": [],
@@ -200,798 +337,26 @@
    "platform": "instagram",
    "pool": "trendyol",
    "display_name": "Selin Aydın",
-   "followers": 72485,
+   "followers": 245510,
    "tier": "orta",
-   "er": 2.92,
+   "er": 2.87,
    "er_posts": 12,
    "segments": [
-    "guzellik_bakim",
-    "moda"
+    "moda",
+    "guzellik_bakim"
    ],
    "marketplaces": [
     "trendyol"
    ],
    "verified": false,
-   "bio": "Örnek hesap · Güzellik & bakım içerikleri. Gerçek kişi değildir.",
+   "bio": "Örnek hesap · Moda & aksesuar içerikleri. Gerçek kişi değildir.",
    "business_category": null,
    "collection_url": null,
    "brands": [
-    "Pamuk Bebe",
-    "Örnek Kozmetik",
-    "EvGüzel",
-    "Kumaş & Co"
+    "Örnek Kozmetik"
    ],
    "avatar": null,
    "profile_url": "https://example.com/ornek.selinaydin",
-   "first_seen_at": "2026-10-01T00:00:00+00:00",
-   "analysis": {
-    "quality": {
-     "score": 80,
-     "label": "Örnek",
-     "components": [
-      {
-       "key": "etkilesim",
-       "label": "Etkileşim / beklenen",
-       "max": 30,
-       "points": 22,
-       "value": 1.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "oran",
-       "label": "Yorum / beğeni",
-       "max": 10,
-       "points": 10,
-       "value": 2.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "takip",
-       "label": "Takip / takipçi",
-       "max": 10,
-       "points": 9,
-       "value": 0.3,
-       "note": "Örnek bileşen"
-      }
-     ]
-    },
-    "recent": [],
-    "rhythm": {
-     "per_week": 1.4,
-     "last_post_at": "2026-10-15T10:00:00+00:00"
-    },
-    "mix": {
-     "Reel": 6,
-     "Carousel": 4,
-     "Image": 2
-    },
-    "reels_avg_views": 28994,
-    "paid_share": 7,
-    "partners": [],
-    "posts_measured": 12,
-    "followers_history": [],
-    "expected_er": 2,
-    "highlights": []
-   }
-  },
-  {
-   "handle": "ornek.mertdemir",
-   "platform": "instagram",
-   "pool": "trendyol",
-   "display_name": "Mert Demir",
-   "followers": 2851071,
-   "tier": "mega",
-   "er": 2.51,
-   "er_posts": 12,
-   "segments": [
-    "ev_yasam",
-    "guzellik_bakim"
-   ],
-   "marketplaces": [
-    "trendyol"
-   ],
-   "verified": false,
-   "bio": "Örnek hesap · Ev & dekorasyon içerikleri. Gerçek kişi değildir.",
-   "business_category": null,
-   "collection_url": null,
-   "brands": [
-    "MiniAdım",
-    "Kumaş & Co",
-    "TeknoKare"
-   ],
-   "avatar": null,
-   "profile_url": "https://example.com/ornek.mertdemir",
-   "first_seen_at": "2026-10-01T00:00:00+00:00",
-   "analysis": {
-    "quality": {
-     "score": 54,
-     "label": "Örnek",
-     "components": [
-      {
-       "key": "etkilesim",
-       "label": "Etkileşim / beklenen",
-       "max": 30,
-       "points": 22,
-       "value": 1.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "oran",
-       "label": "Yorum / beğeni",
-       "max": 10,
-       "points": 10,
-       "value": 2.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "takip",
-       "label": "Takip / takipçi",
-       "max": 10,
-       "points": 9,
-       "value": 0.3,
-       "note": "Örnek bileşen"
-      }
-     ]
-    },
-    "recent": [],
-    "rhythm": {
-     "per_week": 4.6,
-     "last_post_at": "2026-10-15T10:00:00+00:00"
-    },
-    "mix": {
-     "Reel": 6,
-     "Carousel": 4,
-     "Image": 2
-    },
-    "reels_avg_views": 1140428,
-    "paid_share": 10,
-    "partners": [],
-    "posts_measured": 12,
-    "followers_history": [],
-    "expected_er": 2,
-    "highlights": []
-   }
-  },
-  {
-   "handle": "ornek.zeynepsahin",
-   "platform": "tiktok",
-   "pool": "trendyol",
-   "display_name": "Zeynep Şahin",
-   "followers": 1349691,
-   "tier": "mega",
-   "er": 1.22,
-   "er_posts": 12,
-   "segments": [
-    "ev_yasam",
-    "guzellik_bakim"
-   ],
-   "marketplaces": [
-    "trendyol"
-   ],
-   "verified": false,
-   "bio": "Örnek hesap · Ev & dekorasyon içerikleri. Gerçek kişi değildir.",
-   "business_category": null,
-   "collection_url": null,
-   "brands": [
-    "EvGüzel",
-    "TeknoKare",
-    "FitHat"
-   ],
-   "avatar": null,
-   "profile_url": "https://example.com/ornek.zeynepsahin",
-   "first_seen_at": "2026-10-01T00:00:00+00:00",
-   "analysis": {
-    "quality": {
-     "score": 70,
-     "label": "Örnek",
-     "components": [
-      {
-       "key": "etkilesim",
-       "label": "Etkileşim / beklenen",
-       "max": 30,
-       "points": 22,
-       "value": 1.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "oran",
-       "label": "Yorum / beğeni",
-       "max": 10,
-       "points": 10,
-       "value": 2.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "takip",
-       "label": "Takip / takipçi",
-       "max": 10,
-       "points": 9,
-       "value": 0.3,
-       "note": "Örnek bileşen"
-      }
-     ]
-    },
-    "recent": [],
-    "rhythm": {
-     "per_week": 0.5,
-     "last_post_at": "2026-10-15T10:00:00+00:00"
-    },
-    "mix": {
-     "Reel": 6,
-     "Carousel": 4,
-     "Image": 2
-    },
-    "reels_avg_views": 539876,
-    "paid_share": 2,
-    "partners": [],
-    "posts_measured": 12,
-    "followers_history": [],
-    "expected_er": 2,
-    "highlights": []
-   }
-  },
-  {
-   "handle": "ornek.canozturk",
-   "platform": "instagram",
-   "pool": "trendyol",
-   "display_name": "Can Öztürk",
-   "followers": 41713,
-   "tier": "mikro",
-   "er": 3.1,
-   "er_posts": 12,
-   "segments": [
-    "yemek"
-   ],
-   "marketplaces": [
-    "trendyol"
-   ],
-   "verified": false,
-   "bio": "Örnek hesap · Yemek & mutfak içerikleri. Gerçek kişi değildir.",
-   "business_category": null,
-   "collection_url": null,
-   "brands": [
-    "MiniAdım",
-    "EvGüzel",
-    "TeknoKare"
-   ],
-   "avatar": null,
-   "profile_url": "https://example.com/ornek.canozturk",
-   "first_seen_at": "2026-10-01T00:00:00+00:00",
-   "analysis": {
-    "quality": {
-     "score": 62,
-     "label": "Örnek",
-     "components": [
-      {
-       "key": "etkilesim",
-       "label": "Etkileşim / beklenen",
-       "max": 30,
-       "points": 22,
-       "value": 1.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "oran",
-       "label": "Yorum / beğeni",
-       "max": 10,
-       "points": 10,
-       "value": 2.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "takip",
-       "label": "Takip / takipçi",
-       "max": 10,
-       "points": 9,
-       "value": 0.3,
-       "note": "Örnek bileşen"
-      }
-     ]
-    },
-    "recent": [],
-    "rhythm": {
-     "per_week": 1.2,
-     "last_post_at": "2026-10-15T10:00:00+00:00"
-    },
-    "mix": {
-     "Reel": 6,
-     "Carousel": 4,
-     "Image": 2
-    },
-    "reels_avg_views": 16685,
-    "paid_share": 30,
-    "partners": [],
-    "posts_measured": 12,
-    "followers_history": [],
-    "expected_er": 2,
-    "highlights": []
-   }
-  },
-  {
-   "handle": "ornek.elifarslan",
-   "platform": "instagram",
-   "pool": "trendyol",
-   "display_name": "Elif Arslan",
-   "followers": 5283,
-   "tier": "nano",
-   "er": 3.73,
-   "er_posts": 12,
-   "segments": [
-    "guzellik_bakim",
-    "spor"
-   ],
-   "marketplaces": [
-    "trendyol"
-   ],
-   "verified": false,
-   "bio": "Örnek hesap · Güzellik & bakım içerikleri. Gerçek kişi değildir.",
-   "business_category": null,
-   "collection_url": null,
-   "brands": [
-    "Pamuk Bebe",
-    "TeknoKare",
-    "FitHat"
-   ],
-   "avatar": null,
-   "profile_url": "https://example.com/ornek.elifarslan",
-   "first_seen_at": "2026-10-01T00:00:00+00:00",
-   "analysis": {
-    "quality": {
-     "score": 65,
-     "label": "Örnek",
-     "components": [
-      {
-       "key": "etkilesim",
-       "label": "Etkileşim / beklenen",
-       "max": 30,
-       "points": 22,
-       "value": 1.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "oran",
-       "label": "Yorum / beğeni",
-       "max": 10,
-       "points": 10,
-       "value": 2.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "takip",
-       "label": "Takip / takipçi",
-       "max": 10,
-       "points": 9,
-       "value": 0.3,
-       "note": "Örnek bileşen"
-      }
-     ]
-    },
-    "recent": [],
-    "rhythm": {
-     "per_week": 1.8,
-     "last_post_at": "2026-10-15T10:00:00+00:00"
-    },
-    "mix": {
-     "Reel": 6,
-     "Carousel": 4,
-     "Image": 2
-    },
-    "reels_avg_views": 2113,
-    "paid_share": 9,
-    "partners": [],
-    "posts_measured": 12,
-    "followers_history": [],
-    "expected_er": 2,
-    "highlights": []
-   }
-  },
-  {
-   "handle": "ornek.burakkoc",
-   "platform": "instagram",
-   "pool": "trendyol",
-   "display_name": "Burak Koç",
-   "followers": 36342,
-   "tier": "mikro",
-   "er": 0.44,
-   "er_posts": 12,
-   "segments": [
-    "yemek",
-    "spor"
-   ],
-   "marketplaces": [
-    "trendyol"
-   ],
-   "verified": false,
-   "bio": "Örnek hesap · Yemek & mutfak içerikleri. Gerçek kişi değildir.",
-   "business_category": null,
-   "collection_url": null,
-   "brands": [
-    "Pamuk Bebe"
-   ],
-   "avatar": null,
-   "profile_url": "https://example.com/ornek.burakkoc",
-   "first_seen_at": "2026-10-01T00:00:00+00:00",
-   "analysis": {
-    "quality": {
-     "score": 76,
-     "label": "Örnek",
-     "components": [
-      {
-       "key": "etkilesim",
-       "label": "Etkileşim / beklenen",
-       "max": 30,
-       "points": 22,
-       "value": 1.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "oran",
-       "label": "Yorum / beğeni",
-       "max": 10,
-       "points": 10,
-       "value": 2.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "takip",
-       "label": "Takip / takipçi",
-       "max": 10,
-       "points": 9,
-       "value": 0.3,
-       "note": "Örnek bileşen"
-      }
-     ]
-    },
-    "recent": [],
-    "rhythm": {
-     "per_week": 2.2,
-     "last_post_at": "2026-10-15T10:00:00+00:00"
-    },
-    "mix": {
-     "Reel": 6,
-     "Carousel": 4,
-     "Image": 2
-    },
-    "reels_avg_views": 14537,
-    "paid_share": 4,
-    "partners": [],
-    "posts_measured": 12,
-    "followers_history": [],
-    "expected_er": 2,
-    "highlights": []
-   }
-  },
-  {
-   "handle": "ornek.aysepolat",
-   "platform": "instagram",
-   "pool": "trendyol",
-   "display_name": "Ayşe Polat",
-   "followers": 2956909,
-   "tier": "mega",
-   "er": 5.78,
-   "er_posts": 12,
-   "segments": [
-    "ev_yasam",
-    "teknoloji"
-   ],
-   "marketplaces": [
-    "trendyol"
-   ],
-   "verified": false,
-   "bio": "Örnek hesap · Ev & dekorasyon içerikleri. Gerçek kişi değildir.",
-   "business_category": null,
-   "collection_url": null,
-   "brands": [
-    "EvGüzel",
-    "Kumaş & Co",
-    "TeknoKare"
-   ],
-   "avatar": null,
-   "profile_url": "https://example.com/ornek.aysepolat",
-   "first_seen_at": "2026-10-01T00:00:00+00:00",
-   "analysis": {
-    "quality": {
-     "score": 51,
-     "label": "Örnek",
-     "components": [
-      {
-       "key": "etkilesim",
-       "label": "Etkileşim / beklenen",
-       "max": 30,
-       "points": 22,
-       "value": 1.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "oran",
-       "label": "Yorum / beğeni",
-       "max": 10,
-       "points": 10,
-       "value": 2.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "takip",
-       "label": "Takip / takipçi",
-       "max": 10,
-       "points": 9,
-       "value": 0.3,
-       "note": "Örnek bileşen"
-      }
-     ]
-    },
-    "recent": [],
-    "rhythm": {
-     "per_week": 0.8,
-     "last_post_at": "2026-10-15T10:00:00+00:00"
-    },
-    "mix": {
-     "Reel": 6,
-     "Carousel": 4,
-     "Image": 2
-    },
-    "reels_avg_views": 1182764,
-    "paid_share": 28,
-    "partners": [],
-    "posts_measured": 12,
-    "followers_history": [],
-    "expected_er": 2,
-    "highlights": []
-   }
-  },
-  {
-   "handle": "ornek.emrecelik",
-   "platform": "tiktok",
-   "pool": "trendyol",
-   "display_name": "Emre Çelik",
-   "followers": 341758,
-   "tier": "orta",
-   "er": 1.41,
-   "er_posts": 12,
-   "segments": [
-    "yemek",
-    "teknoloji"
-   ],
-   "marketplaces": [
-    "trendyol"
-   ],
-   "verified": false,
-   "bio": "Örnek hesap · Yemek & mutfak içerikleri. Gerçek kişi değildir.",
-   "business_category": null,
-   "collection_url": null,
-   "brands": [
-    "TeknoKare"
-   ],
-   "avatar": null,
-   "profile_url": "https://example.com/ornek.emrecelik",
-   "first_seen_at": "2026-10-01T00:00:00+00:00",
-   "analysis": {
-    "quality": {
-     "score": 54,
-     "label": "Örnek",
-     "components": [
-      {
-       "key": "etkilesim",
-       "label": "Etkileşim / beklenen",
-       "max": 30,
-       "points": 22,
-       "value": 1.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "oran",
-       "label": "Yorum / beğeni",
-       "max": 10,
-       "points": 10,
-       "value": 2.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "takip",
-       "label": "Takip / takipçi",
-       "max": 10,
-       "points": 9,
-       "value": 0.3,
-       "note": "Örnek bileşen"
-      }
-     ]
-    },
-    "recent": [],
-    "rhythm": {
-     "per_week": 0.1,
-     "last_post_at": "2026-10-15T10:00:00+00:00"
-    },
-    "mix": {
-     "Reel": 6,
-     "Carousel": 4,
-     "Image": 2
-    },
-    "reels_avg_views": 136703,
-    "paid_share": 21,
-    "partners": [],
-    "posts_measured": 12,
-    "followers_history": [],
-    "expected_er": 2,
-    "highlights": []
-   }
-  },
-  {
-   "handle": "ornek.nehirkurt",
-   "platform": "instagram",
-   "pool": "trendyol",
-   "display_name": "Nehir Kurt",
-   "followers": 910689,
-   "tier": "makro",
-   "er": 3.33,
-   "er_posts": 12,
-   "segments": [
-    "spor",
-    "guzellik_bakim"
-   ],
-   "marketplaces": [
-    "trendyol"
-   ],
-   "verified": false,
-   "bio": "Örnek hesap · Fitness & spor içerikleri. Gerçek kişi değildir.",
-   "business_category": null,
-   "collection_url": null,
-   "brands": [
-    "Örnek Kozmetik",
-    "MiniAdım"
-   ],
-   "avatar": null,
-   "profile_url": "https://example.com/ornek.nehirkurt",
-   "first_seen_at": "2026-10-01T00:00:00+00:00",
-   "analysis": {
-    "quality": {
-     "score": 66,
-     "label": "Örnek",
-     "components": [
-      {
-       "key": "etkilesim",
-       "label": "Etkileşim / beklenen",
-       "max": 30,
-       "points": 22,
-       "value": 1.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "oran",
-       "label": "Yorum / beğeni",
-       "max": 10,
-       "points": 10,
-       "value": 2.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "takip",
-       "label": "Takip / takipçi",
-       "max": 10,
-       "points": 9,
-       "value": 0.3,
-       "note": "Örnek bileşen"
-      }
-     ]
-    },
-    "recent": [],
-    "rhythm": {
-     "per_week": 1.2,
-     "last_post_at": "2026-10-15T10:00:00+00:00"
-    },
-    "mix": {
-     "Reel": 6,
-     "Carousel": 4,
-     "Image": 2
-    },
-    "reels_avg_views": 364276,
-    "paid_share": 12,
-    "partners": [],
-    "posts_measured": 12,
-    "followers_history": [],
-    "expected_er": 2,
-    "highlights": []
-   }
-  },
-  {
-   "handle": "ornek.kaanyilmaz",
-   "platform": "instagram",
-   "pool": "bagimsiz",
-   "display_name": "Kaan Yılmaz",
-   "followers": 677325,
-   "tier": "makro",
-   "er": 4.14,
-   "er_posts": 12,
-   "segments": [
-    "moda",
-    "guzellik_bakim"
-   ],
-   "marketplaces": [
-    "trendyol"
-   ],
-   "verified": false,
-   "bio": "Örnek hesap · Moda & aksesuar içerikleri. Gerçek kişi değildir.",
-   "business_category": null,
-   "collection_url": null,
-   "brands": [],
-   "avatar": null,
-   "profile_url": "https://example.com/ornek.kaanyilmaz",
-   "first_seen_at": "2026-10-01T00:00:00+00:00",
-   "analysis": {
-    "quality": {
-     "score": 68,
-     "label": "Örnek",
-     "components": [
-      {
-       "key": "etkilesim",
-       "label": "Etkileşim / beklenen",
-       "max": 30,
-       "points": 22,
-       "value": 1.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "oran",
-       "label": "Yorum / beğeni",
-       "max": 10,
-       "points": 10,
-       "value": 2.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "takip",
-       "label": "Takip / takipçi",
-       "max": 10,
-       "points": 9,
-       "value": 0.3,
-       "note": "Örnek bileşen"
-      }
-     ]
-    },
-    "recent": [],
-    "rhythm": {
-     "per_week": 0.5,
-     "last_post_at": "2026-10-15T10:00:00+00:00"
-    },
-    "mix": {
-     "Reel": 6,
-     "Carousel": 4,
-     "Image": 2
-    },
-    "reels_avg_views": 270930,
-    "paid_share": 19,
-    "partners": [],
-    "posts_measured": 12,
-    "followers_history": [],
-    "expected_er": 2,
-    "highlights": []
-   }
-  },
-  {
-   "handle": "ornek.defneerdem",
-   "platform": "instagram",
-   "pool": "trendyol",
-   "display_name": "Defne Erdem",
-   "followers": 42458,
-   "tier": "mikro",
-   "er": 5.98,
-   "er_posts": 12,
-   "segments": [
-    "moda",
-    "spor"
-   ],
-   "marketplaces": [
-    "trendyol"
-   ],
-   "verified": false,
-   "bio": "Örnek hesap · Moda & aksesuar içerikleri. Gerçek kişi değildir.",
-   "business_category": null,
-   "collection_url": null,
-   "brands": [
-    "FitHat",
-    "MiniAdım"
-   ],
-   "avatar": null,
-   "profile_url": "https://example.com/ornek.defneerdem",
    "first_seen_at": "2026-10-01T00:00:00+00:00",
    "analysis": {
     "quality": {
@@ -1024,391 +389,74 @@
       }
      ]
     },
-    "recent": [],
-    "rhythm": {
-     "per_week": 1.3,
-     "last_post_at": "2026-10-15T10:00:00+00:00"
-    },
-    "mix": {
-     "Reel": 6,
-     "Carousel": 4,
-     "Image": 2
-    },
-    "reels_avg_views": 16983,
-    "paid_share": 14,
-    "partners": [],
-    "posts_measured": 12,
-    "followers_history": [],
-    "expected_er": 2,
-    "highlights": []
-   }
-  },
-  {
-   "handle": "ornek.ozanaksoy",
-   "platform": "instagram",
-   "pool": "bagimsiz",
-   "display_name": "Ozan Aksoy",
-   "followers": 3531,
-   "tier": "nano",
-   "er": 1.52,
-   "er_posts": 12,
-   "segments": [
-    "teknoloji",
-    "moda"
-   ],
-   "marketplaces": [
-    "trendyol"
-   ],
-   "verified": false,
-   "bio": "Örnek hesap · Teknoloji içerikleri. Gerçek kişi değildir.",
-   "business_category": null,
-   "collection_url": null,
-   "brands": [],
-   "avatar": null,
-   "profile_url": "https://example.com/ornek.ozanaksoy",
-   "first_seen_at": "2026-10-01T00:00:00+00:00",
-   "analysis": {
-    "quality": {
-     "score": 51,
-     "label": "Örnek",
-     "components": [
-      {
-       "key": "etkilesim",
-       "label": "Etkileşim / beklenen",
-       "max": 30,
-       "points": 22,
-       "value": 1.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "oran",
-       "label": "Yorum / beğeni",
-       "max": 10,
-       "points": 10,
-       "value": 2.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "takip",
-       "label": "Takip / takipçi",
-       "max": 10,
-       "points": 9,
-       "value": 0.3,
-       "note": "Örnek bileşen"
-      }
-     ]
-    },
-    "recent": [],
-    "rhythm": {
-     "per_week": 3,
-     "last_post_at": "2026-10-15T10:00:00+00:00"
-    },
-    "mix": {
-     "Reel": 6,
-     "Carousel": 4,
-     "Image": 2
-    },
-    "reels_avg_views": 1412,
-    "paid_share": 18,
-    "partners": [],
-    "posts_measured": 12,
-    "followers_history": [],
-    "expected_er": 2,
-    "highlights": []
-   }
-  },
-  {
-   "handle": "ornek.ipekgunes",
-   "platform": "tiktok",
-   "pool": "trendyol",
-   "display_name": "İpek Güneş",
-   "followers": 32216,
-   "tier": "mikro",
-   "er": 4.37,
-   "er_posts": 12,
-   "segments": [
-    "ev_yasam",
-    "teknoloji"
-   ],
-   "marketplaces": [
-    "trendyol"
-   ],
-   "verified": false,
-   "bio": "Örnek hesap · Ev & dekorasyon içerikleri. Gerçek kişi değildir.",
-   "business_category": null,
-   "collection_url": null,
-   "brands": [
-    "EvGüzel",
-    "Örnek Kozmetik",
-    "Pamuk Bebe"
-   ],
-   "avatar": null,
-   "profile_url": "https://example.com/ornek.ipekgunes",
-   "first_seen_at": "2026-10-01T00:00:00+00:00",
-   "analysis": {
-    "quality": {
-     "score": 91,
-     "label": "Örnek",
-     "components": [
-      {
-       "key": "etkilesim",
-       "label": "Etkileşim / beklenen",
-       "max": 30,
-       "points": 22,
-       "value": 1.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "oran",
-       "label": "Yorum / beğeni",
-       "max": 10,
-       "points": 10,
-       "value": 2.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "takip",
-       "label": "Takip / takipçi",
-       "max": 10,
-       "points": 9,
-       "value": 0.3,
-       "note": "Örnek bileşen"
-      }
-     ]
-    },
-    "recent": [],
-    "rhythm": {
-     "per_week": 3.4,
-     "last_post_at": "2026-10-15T10:00:00+00:00"
-    },
-    "mix": {
-     "Reel": 6,
-     "Carousel": 4,
-     "Image": 2
-    },
-    "reels_avg_views": 12886,
-    "paid_share": 18,
-    "partners": [],
-    "posts_measured": 12,
-    "followers_history": [],
-    "expected_er": 2,
-    "highlights": []
-   }
-  },
-  {
-   "handle": "ornek.adakorkmaz",
-   "platform": "instagram",
-   "pool": "trendyol",
-   "display_name": "Ada Korkmaz",
-   "followers": 2486790,
-   "tier": "mega",
-   "er": 5.89,
-   "er_posts": 12,
-   "segments": [
-    "teknoloji",
-    "anne_bebek"
-   ],
-   "marketplaces": [
-    "trendyol"
-   ],
-   "verified": false,
-   "bio": "Örnek hesap · Teknoloji içerikleri. Gerçek kişi değildir.",
-   "business_category": null,
-   "collection_url": null,
-   "brands": [
-    "FitHat",
-    "TeknoKare"
-   ],
-   "avatar": null,
-   "profile_url": "https://example.com/ornek.adakorkmaz",
-   "first_seen_at": "2026-10-01T00:00:00+00:00",
-   "analysis": {
-    "quality": {
-     "score": 95,
-     "label": "Örnek",
-     "components": [
-      {
-       "key": "etkilesim",
-       "label": "Etkileşim / beklenen",
-       "max": 30,
-       "points": 22,
-       "value": 1.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "oran",
-       "label": "Yorum / beğeni",
-       "max": 10,
-       "points": 10,
-       "value": 2.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "takip",
-       "label": "Takip / takipçi",
-       "max": 10,
-       "points": 9,
-       "value": 0.3,
-       "note": "Örnek bileşen"
-      }
-     ]
-    },
-    "recent": [],
-    "rhythm": {
-     "per_week": 3.2,
-     "last_post_at": "2026-10-15T10:00:00+00:00"
-    },
-    "mix": {
-     "Reel": 6,
-     "Carousel": 4,
-     "Image": 2
-    },
-    "reels_avg_views": 994716,
-    "paid_share": 33,
-    "partners": [],
-    "posts_measured": 12,
-    "followers_history": [],
-    "expected_er": 2,
-    "highlights": []
-   }
-  },
-  {
-   "handle": "ornek.ardatekin",
-   "platform": "instagram",
-   "pool": "trendyol",
-   "display_name": "Arda Tekin",
-   "followers": 51270,
-   "tier": "orta",
-   "er": 5.09,
-   "er_posts": 12,
-   "segments": [
-    "moda",
-    "teknoloji"
-   ],
-   "marketplaces": [
-    "trendyol"
-   ],
-   "verified": false,
-   "bio": "Örnek hesap · Moda & aksesuar içerikleri. Gerçek kişi değildir.",
-   "business_category": null,
-   "collection_url": null,
-   "brands": [
-    "FitHat",
-    "EvGüzel",
-    "TeknoKare"
-   ],
-   "avatar": null,
-   "profile_url": "https://example.com/ornek.ardatekin",
-   "first_seen_at": "2026-10-01T00:00:00+00:00",
-   "analysis": {
-    "quality": {
-     "score": 70,
-     "label": "Örnek",
-     "components": [
-      {
-       "key": "etkilesim",
-       "label": "Etkileşim / beklenen",
-       "max": 30,
-       "points": 22,
-       "value": 1.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "oran",
-       "label": "Yorum / beğeni",
-       "max": 10,
-       "points": 10,
-       "value": 2.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "takip",
-       "label": "Takip / takipçi",
-       "max": 10,
-       "points": 9,
-       "value": 0.3,
-       "note": "Örnek bileşen"
-      }
-     ]
-    },
-    "recent": [],
-    "rhythm": {
-     "per_week": 4.4,
-     "last_post_at": "2026-10-15T10:00:00+00:00"
-    },
-    "mix": {
-     "Reel": 6,
-     "Carousel": 4,
-     "Image": 2
-    },
-    "reels_avg_views": 20508,
-    "paid_share": 29,
-    "partners": [],
-    "posts_measured": 12,
-    "followers_history": [],
-    "expected_er": 2,
-    "highlights": []
-   }
-  },
-  {
-   "handle": "ornek.durubulut",
-   "platform": "instagram",
-   "pool": "trendyol",
-   "display_name": "Duru Bulut",
-   "followers": 2928,
-   "tier": "nano",
-   "er": 3.57,
-   "er_posts": 12,
-   "segments": [
-    "anne_bebek",
-    "ev_yasam"
-   ],
-   "marketplaces": [
-    "trendyol"
-   ],
-   "verified": false,
-   "bio": "Örnek hesap · Aile & ebeveynlik içerikleri. Gerçek kişi değildir.",
-   "business_category": null,
-   "collection_url": null,
-   "brands": [
-    "FitHat",
-    "Kumaş & Co"
-   ],
-   "avatar": null,
-   "profile_url": "https://example.com/ornek.durubulut",
-   "first_seen_at": "2026-10-01T00:00:00+00:00",
-   "analysis": {
-    "quality": {
-     "score": 51,
-     "label": "Örnek",
-     "components": [
-      {
-       "key": "etkilesim",
-       "label": "Etkileşim / beklenen",
-       "max": 30,
-       "points": 22,
-       "value": 1.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "oran",
-       "label": "Yorum / beğeni",
-       "max": 10,
-       "points": 10,
-       "value": 2.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "takip",
-       "label": "Takip / takipçi",
-       "max": 10,
-       "points": 9,
-       "value": 0.3,
-       "note": "Örnek bileşen"
-      }
-     ]
-    },
-    "recent": [],
+    "recent": [
+     {
+      "url": "https://example.com/p/ornek.selinaydin-0",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 8970,
+      "comments": 259,
+      "views": 113661,
+      "posted_at": "2026-10-15T10:00:00+00:00",
+      "paid": false,
+      "caption": "Yeni sezon kombin önerileri (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.selinaydin-1",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 7028,
+      "comments": 263,
+      "views": null,
+      "posted_at": "2026-10-13T10:00:00+00:00",
+      "paid": false,
+      "caption": "Haftalık cilt bakımı rutinim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.selinaydin-2",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 8477,
+      "comments": 264,
+      "views": 113815,
+      "posted_at": "2026-10-11T10:00:00+00:00",
+      "paid": true,
+      "caption": "Kutudan çıkanlar: bu ay denediklerim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.selinaydin-3",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 6049,
+      "comments": 255,
+      "views": null,
+      "posted_at": "2026-10-09T10:00:00+00:00",
+      "paid": false,
+      "caption": "Mutfakta 10 dakikalık tarif (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.selinaydin-4",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 8074,
+      "comments": 251,
+      "views": 88927,
+      "posted_at": "2026-10-07T10:00:00+00:00",
+      "paid": false,
+      "caption": "Ev düzeni için küçük fikirler (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.selinaydin-5",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 8173,
+      "comments": 280,
+      "views": null,
+      "posted_at": "2026-10-05T10:00:00+00:00",
+      "paid": false,
+      "caption": "Takipçi soruları (örnek)"
+     }
+    ],
     "rhythm": {
      "per_week": 4.8,
      "last_post_at": "2026-10-15T10:00:00+00:00"
@@ -1418,8 +466,8 @@
      "Carousel": 4,
      "Image": 2
     },
-    "reels_avg_views": 1171,
-    "paid_share": 21,
+    "reels_avg_views": 98204,
+    "paid_share": 37,
     "partners": [],
     "posts_measured": 12,
     "followers_history": [],
@@ -1428,173 +476,17 @@
    }
   },
   {
-   "handle": "ornek.efekilic",
+   "handle": "ornek.mertdemir",
    "platform": "instagram",
    "pool": "trendyol",
-   "display_name": "Efe Kılıç",
-   "followers": 2592,
-   "tier": "nano",
-   "er": 5.85,
-   "er_posts": 12,
-   "segments": [
-    "anne_bebek",
-    "guzellik_bakim"
-   ],
-   "marketplaces": [
-    "trendyol"
-   ],
-   "verified": false,
-   "bio": "Örnek hesap · Aile & ebeveynlik içerikleri. Gerçek kişi değildir.",
-   "business_category": null,
-   "collection_url": null,
-   "brands": [
-    "Kumaş & Co",
-    "FitHat",
-    "MiniAdım"
-   ],
-   "avatar": null,
-   "profile_url": "https://example.com/ornek.efekilic",
-   "first_seen_at": "2026-10-01T00:00:00+00:00",
-   "analysis": {
-    "quality": {
-     "score": 68,
-     "label": "Örnek",
-     "components": [
-      {
-       "key": "etkilesim",
-       "label": "Etkileşim / beklenen",
-       "max": 30,
-       "points": 22,
-       "value": 1.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "oran",
-       "label": "Yorum / beğeni",
-       "max": 10,
-       "points": 10,
-       "value": 2.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "takip",
-       "label": "Takip / takipçi",
-       "max": 10,
-       "points": 9,
-       "value": 0.3,
-       "note": "Örnek bileşen"
-      }
-     ]
-    },
-    "recent": [],
-    "rhythm": {
-     "per_week": 4.2,
-     "last_post_at": "2026-10-15T10:00:00+00:00"
-    },
-    "mix": {
-     "Reel": 6,
-     "Carousel": 4,
-     "Image": 2
-    },
-    "reels_avg_views": 1037,
-    "paid_share": 7,
-    "partners": [],
-    "posts_measured": 12,
-    "followers_history": [],
-    "expected_er": 2,
-    "highlights": []
-   }
-  },
-  {
-   "handle": "ornek.laraozkan",
-   "platform": "tiktok",
-   "pool": "trendyol",
-   "display_name": "Lara Özkan",
-   "followers": 25258,
-   "tier": "mikro",
-   "er": 1.9,
-   "er_posts": 12,
-   "segments": [
-    "anne_bebek",
-    "teknoloji"
-   ],
-   "marketplaces": [
-    "trendyol"
-   ],
-   "verified": false,
-   "bio": "Örnek hesap · Aile & ebeveynlik içerikleri. Gerçek kişi değildir.",
-   "business_category": null,
-   "collection_url": null,
-   "brands": [
-    "Örnek Kozmetik",
-    "Kumaş & Co",
-    "EvGüzel"
-   ],
-   "avatar": null,
-   "profile_url": "https://example.com/ornek.laraozkan",
-   "first_seen_at": "2026-10-01T00:00:00+00:00",
-   "analysis": {
-    "quality": {
-     "score": 73,
-     "label": "Örnek",
-     "components": [
-      {
-       "key": "etkilesim",
-       "label": "Etkileşim / beklenen",
-       "max": 30,
-       "points": 22,
-       "value": 1.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "oran",
-       "label": "Yorum / beğeni",
-       "max": 10,
-       "points": 10,
-       "value": 2.1,
-       "note": "Örnek bileşen"
-      },
-      {
-       "key": "takip",
-       "label": "Takip / takipçi",
-       "max": 10,
-       "points": 9,
-       "value": 0.3,
-       "note": "Örnek bileşen"
-      }
-     ]
-    },
-    "recent": [],
-    "rhythm": {
-     "per_week": 1.7,
-     "last_post_at": "2026-10-15T10:00:00+00:00"
-    },
-    "mix": {
-     "Reel": 6,
-     "Carousel": 4,
-     "Image": 2
-    },
-    "reels_avg_views": 10103,
-    "paid_share": 1,
-    "partners": [],
-    "posts_measured": 12,
-    "followers_history": [],
-    "expected_er": 2,
-    "highlights": []
-   }
-  },
-  {
-   "handle": "ornek.yagmurtas",
-   "platform": "instagram",
-   "pool": "trendyol",
-   "display_name": "Yağmur Taş",
-   "followers": 3125,
-   "tier": "nano",
-   "er": 1.74,
+   "display_name": "Mert Demir",
+   "followers": 1133169,
+   "tier": "mega",
+   "er": 1.69,
    "er_posts": 12,
    "segments": [
     "spor",
-    "ev_yasam"
+    "yemek"
    ],
    "marketplaces": [
     "trendyol"
@@ -1604,16 +496,15 @@
    "business_category": null,
    "collection_url": null,
    "brands": [
-    "Pamuk Bebe",
     "Örnek Kozmetik",
-    "EvGüzel"
+    "MiniAdım"
    ],
    "avatar": null,
-   "profile_url": "https://example.com/ornek.yagmurtas",
+   "profile_url": "https://example.com/ornek.mertdemir",
    "first_seen_at": "2026-10-01T00:00:00+00:00",
    "analysis": {
     "quality": {
-     "score": 51,
+     "score": 81,
      "label": "Örnek",
      "components": [
       {
@@ -1642,9 +533,76 @@
       }
      ]
     },
-    "recent": [],
+    "recent": [
+     {
+      "url": "https://example.com/p/ornek.mertdemir-0",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 21877,
+      "comments": 1144,
+      "views": 876915,
+      "posted_at": "2026-10-15T10:00:00+00:00",
+      "paid": false,
+      "caption": "Yeni sezon kombin önerileri (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.mertdemir-1",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 13486,
+      "comments": 1148,
+      "views": null,
+      "posted_at": "2026-10-13T10:00:00+00:00",
+      "paid": false,
+      "caption": "Haftalık cilt bakımı rutinim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.mertdemir-2",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 20136,
+      "comments": 1151,
+      "views": 287437,
+      "posted_at": "2026-10-11T10:00:00+00:00",
+      "paid": true,
+      "caption": "Kutudan çıkanlar: bu ay denediklerim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.mertdemir-3",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 24787,
+      "comments": 1151,
+      "views": null,
+      "posted_at": "2026-10-09T10:00:00+00:00",
+      "paid": false,
+      "caption": "Mutfakta 10 dakikalık tarif (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.mertdemir-4",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 23429,
+      "comments": 1157,
+      "views": 545562,
+      "posted_at": "2026-10-07T10:00:00+00:00",
+      "paid": false,
+      "caption": "Ev düzeni için küçük fikirler (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.mertdemir-5",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 14843,
+      "comments": 1165,
+      "views": null,
+      "posted_at": "2026-10-05T10:00:00+00:00",
+      "paid": false,
+      "caption": "Takipçi soruları (örnek)"
+     }
+    ],
     "rhythm": {
-     "per_week": 0.6,
+     "per_week": 4.5,
      "last_post_at": "2026-10-15T10:00:00+00:00"
     },
     "mix": {
@@ -1652,8 +610,8 @@
      "Carousel": 4,
      "Image": 2
     },
-    "reels_avg_views": 1250,
-    "paid_share": 29,
+    "reels_avg_views": 453268,
+    "paid_share": 11,
     "partners": [],
     "posts_measured": 12,
     "followers_history": [],
@@ -1662,17 +620,162 @@
    }
   },
   {
-   "handle": "ornek.egedogan",
-   "platform": "instagram",
+   "handle": "ornek.zeynepsahin",
+   "platform": "tiktok",
    "pool": "trendyol",
-   "display_name": "Ege Doğan",
-   "followers": 1057936,
-   "tier": "mega",
-   "er": 1.79,
+   "display_name": "Zeynep Şahin",
+   "followers": 2394,
+   "tier": "nano",
+   "er": 1.41,
+   "er_posts": 12,
+   "segments": [
+    "guzellik_bakim",
+    "yemek"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Güzellik & bakım içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "FitHat",
+    "TeknoKare",
+    "Kumaş & Co"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.zeynepsahin",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 54,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [
+     {
+      "url": "https://example.com/p/ornek.zeynepsahin-0",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 24,
+      "comments": 24,
+      "views": 1672,
+      "posted_at": "2026-10-15T10:00:00+00:00",
+      "paid": false,
+      "caption": "Yeni sezon kombin önerileri (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.zeynepsahin-1",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 41,
+      "comments": 8,
+      "views": null,
+      "posted_at": "2026-10-13T10:00:00+00:00",
+      "paid": false,
+      "caption": "Haftalık cilt bakımı rutinim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.zeynepsahin-2",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 34,
+      "comments": 4,
+      "views": 880,
+      "posted_at": "2026-10-11T10:00:00+00:00",
+      "paid": true,
+      "caption": "Kutudan çıkanlar: bu ay denediklerim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.zeynepsahin-3",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 34,
+      "comments": 5,
+      "views": null,
+      "posted_at": "2026-10-09T10:00:00+00:00",
+      "paid": false,
+      "caption": "Mutfakta 10 dakikalık tarif (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.zeynepsahin-4",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 31,
+      "comments": 12,
+      "views": 904,
+      "posted_at": "2026-10-07T10:00:00+00:00",
+      "paid": false,
+      "caption": "Ev düzeni için küçük fikirler (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.zeynepsahin-5",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 40,
+      "comments": 8,
+      "views": null,
+      "posted_at": "2026-10-05T10:00:00+00:00",
+      "paid": false,
+      "caption": "Takipçi soruları (örnek)"
+     }
+    ],
+    "rhythm": {
+     "per_week": 0.8,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 958,
+    "paid_share": 0,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.canozturk",
+   "platform": "instagram",
+   "pool": "bagimsiz",
+   "display_name": "Can Öztürk",
+   "followers": 198540,
+   "tier": "orta",
+   "er": 3.27,
    "er_posts": 12,
    "segments": [
     "moda",
-    "ev_yasam"
+    "anne_bebek"
    ],
    "marketplaces": [
     "trendyol"
@@ -1681,15 +784,13 @@
    "bio": "Örnek hesap · Moda & aksesuar içerikleri. Gerçek kişi değildir.",
    "business_category": null,
    "collection_url": null,
-   "brands": [
-    "MiniAdım"
-   ],
+   "brands": [],
    "avatar": null,
-   "profile_url": "https://example.com/ornek.egedogan",
+   "profile_url": "https://example.com/ornek.canozturk",
    "first_seen_at": "2026-10-01T00:00:00+00:00",
    "analysis": {
     "quality": {
-     "score": 72,
+     "score": 50,
      "label": "Örnek",
      "components": [
       {
@@ -1718,9 +819,76 @@
       }
      ]
     },
-    "recent": [],
+    "recent": [
+     {
+      "url": "https://example.com/p/ornek.canozturk-0",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 7491,
+      "comments": 217,
+      "views": 127724,
+      "posted_at": "2026-10-15T10:00:00+00:00",
+      "paid": false,
+      "caption": "Yeni sezon kombin önerileri (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.canozturk-1",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 5860,
+      "comments": 236,
+      "views": null,
+      "posted_at": "2026-10-13T10:00:00+00:00",
+      "paid": false,
+      "caption": "Haftalık cilt bakımı rutinim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.canozturk-2",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 7337,
+      "comments": 224,
+      "views": 71627,
+      "posted_at": "2026-10-11T10:00:00+00:00",
+      "paid": true,
+      "caption": "Kutudan çıkanlar: bu ay denediklerim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.canozturk-3",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 5945,
+      "comments": 202,
+      "views": null,
+      "posted_at": "2026-10-09T10:00:00+00:00",
+      "paid": false,
+      "caption": "Mutfakta 10 dakikalık tarif (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.canozturk-4",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 7977,
+      "comments": 202,
+      "views": 47853,
+      "posted_at": "2026-10-07T10:00:00+00:00",
+      "paid": false,
+      "caption": "Ev düzeni için küçük fikirler (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.canozturk-5",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 5270,
+      "comments": 211,
+      "views": null,
+      "posted_at": "2026-10-05T10:00:00+00:00",
+      "paid": false,
+      "caption": "Takipçi soruları (örnek)"
+     }
+    ],
     "rhythm": {
-     "per_week": 1.1,
+     "per_week": 0.1,
      "last_post_at": "2026-10-15T10:00:00+00:00"
     },
     "mix": {
@@ -1728,8 +896,8 @@
      "Carousel": 4,
      "Image": 2
     },
-    "reels_avg_views": 423174,
-    "paid_share": 25,
+    "reels_avg_views": 79416,
+    "paid_share": 24,
     "partners": [],
     "posts_measured": 12,
     "followers_history": [],
@@ -1738,17 +906,308 @@
    }
   },
   {
-   "handle": "ornek.melisucar",
+   "handle": "ornek.elifarslan",
    "platform": "instagram",
    "pool": "trendyol",
-   "display_name": "Melis Uçar",
-   "followers": 1377209,
-   "tier": "mega",
-   "er": 4.74,
+   "display_name": "Elif Arslan",
+   "followers": 50999,
+   "tier": "orta",
+   "er": 3.39,
+   "er_posts": 12,
+   "segments": [
+    "anne_bebek",
+    "ev_yasam"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": true,
+   "bio": "Örnek hesap · Aile & ebeveynlik içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "Lezzet Atölyesi",
+    "EvGüzel",
+    "Örnek Kozmetik",
+    "Pamuk Bebe",
+    "FitHat"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.elifarslan",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 81,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [
+     {
+      "url": "https://example.com/p/ornek.elifarslan-0",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 1686,
+      "comments": 90,
+      "views": 37309,
+      "posted_at": "2026-10-15T10:00:00+00:00",
+      "paid": false,
+      "caption": "Yeni sezon kombin önerileri (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.elifarslan-1",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 1641,
+      "comments": 71,
+      "views": null,
+      "posted_at": "2026-10-13T10:00:00+00:00",
+      "paid": false,
+      "caption": "Haftalık cilt bakımı rutinim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.elifarslan-2",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 1939,
+      "comments": 82,
+      "views": 38191,
+      "posted_at": "2026-10-11T10:00:00+00:00",
+      "paid": true,
+      "caption": "Kutudan çıkanlar: bu ay denediklerim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.elifarslan-3",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 1776,
+      "comments": 91,
+      "views": null,
+      "posted_at": "2026-10-09T10:00:00+00:00",
+      "paid": false,
+      "caption": "Mutfakta 10 dakikalık tarif (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.elifarslan-4",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 1869,
+      "comments": 84,
+      "views": 23672,
+      "posted_at": "2026-10-07T10:00:00+00:00",
+      "paid": false,
+      "caption": "Ev düzeni için küçük fikirler (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.elifarslan-5",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 1288,
+      "comments": 90,
+      "views": null,
+      "posted_at": "2026-10-05T10:00:00+00:00",
+      "paid": false,
+      "caption": "Takipçi soruları (örnek)"
+     }
+    ],
+    "rhythm": {
+     "per_week": 2.8,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 20400,
+    "paid_share": 26,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.burakkoc",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Burak Koç",
+   "followers": 35773,
+   "tier": "mikro",
+   "er": 0.71,
+   "er_posts": 12,
+   "segments": [
+    "spor"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Fitness & spor içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "EvGüzel",
+    "Pamuk Bebe",
+    "FitHat"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.burakkoc",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 71,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [
+     {
+      "url": "https://example.com/p/ornek.burakkoc-0",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 329,
+      "comments": 62,
+      "views": 10463,
+      "posted_at": "2026-10-15T10:00:00+00:00",
+      "paid": false,
+      "caption": "Yeni sezon kombin önerileri (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.burakkoc-1",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 281,
+      "comments": 43,
+      "views": null,
+      "posted_at": "2026-10-13T10:00:00+00:00",
+      "paid": false,
+      "caption": "Haftalık cilt bakımı rutinim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.burakkoc-2",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 208,
+      "comments": 57,
+      "views": 13913,
+      "posted_at": "2026-10-11T10:00:00+00:00",
+      "paid": true,
+      "caption": "Kutudan çıkanlar: bu ay denediklerim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.burakkoc-3",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 181,
+      "comments": 74,
+      "views": null,
+      "posted_at": "2026-10-09T10:00:00+00:00",
+      "paid": false,
+      "caption": "Mutfakta 10 dakikalık tarif (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.burakkoc-4",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 256,
+      "comments": 37,
+      "views": 15504,
+      "posted_at": "2026-10-07T10:00:00+00:00",
+      "paid": false,
+      "caption": "Ev düzeni için küçük fikirler (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.burakkoc-5",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 206,
+      "comments": 62,
+      "views": null,
+      "posted_at": "2026-10-05T10:00:00+00:00",
+      "paid": false,
+      "caption": "Takipçi soruları (örnek)"
+     }
+    ],
+    "rhythm": {
+     "per_week": 1.2,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 14309,
+    "paid_share": 30,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.aysepolat",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Ayşe Polat",
+   "followers": 18983,
+   "tier": "mikro",
+   "er": 2.47,
    "er_posts": 12,
    "segments": [
     "teknoloji",
-    "anne_bebek"
+    "yemek"
    ],
    "marketplaces": [
     "trendyol"
@@ -1759,16 +1218,14 @@
    "collection_url": null,
    "brands": [
     "TeknoKare",
-    "EvGüzel",
-    "Örnek Kozmetik",
     "Kumaş & Co"
    ],
    "avatar": null,
-   "profile_url": "https://example.com/ornek.melisucar",
+   "profile_url": "https://example.com/ornek.aysepolat",
    "first_seen_at": "2026-10-01T00:00:00+00:00",
    "analysis": {
     "quality": {
-     "score": 93,
+     "score": 90,
      "label": "Örnek",
      "components": [
       {
@@ -1797,7 +1254,219 @@
       }
      ]
     },
-    "recent": [],
+    "recent": [
+     {
+      "url": "https://example.com/p/ornek.aysepolat-0",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 488,
+      "comments": 22,
+      "views": 5655,
+      "posted_at": "2026-10-15T10:00:00+00:00",
+      "paid": false,
+      "caption": "Yeni sezon kombin önerileri (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.aysepolat-1",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 465,
+      "comments": 29,
+      "views": null,
+      "posted_at": "2026-10-13T10:00:00+00:00",
+      "paid": false,
+      "caption": "Haftalık cilt bakımı rutinim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.aysepolat-2",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 441,
+      "comments": 39,
+      "views": 7562,
+      "posted_at": "2026-10-11T10:00:00+00:00",
+      "paid": true,
+      "caption": "Kutudan çıkanlar: bu ay denediklerim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.aysepolat-3",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 336,
+      "comments": 21,
+      "views": null,
+      "posted_at": "2026-10-09T10:00:00+00:00",
+      "paid": false,
+      "caption": "Mutfakta 10 dakikalık tarif (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.aysepolat-4",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 537,
+      "comments": 37,
+      "views": 10099,
+      "posted_at": "2026-10-07T10:00:00+00:00",
+      "paid": false,
+      "caption": "Ev düzeni için küçük fikirler (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.aysepolat-5",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 581,
+      "comments": 23,
+      "views": null,
+      "posted_at": "2026-10-05T10:00:00+00:00",
+      "paid": false,
+      "caption": "Takipçi soruları (örnek)"
+     }
+    ],
+    "rhythm": {
+     "per_week": 2,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 7593,
+    "paid_share": 9,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.emrecelik",
+   "platform": "tiktok",
+   "pool": "trendyol",
+   "display_name": "Emre Çelik",
+   "followers": 35414,
+   "tier": "mikro",
+   "er": 2.47,
+   "er_posts": 12,
+   "segments": [
+    "moda"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Moda & aksesuar içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "TeknoKare",
+    "Örnek Kozmetik",
+    "Lezzet Atölyesi",
+    "MiniAdım"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.emrecelik",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 83,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [
+     {
+      "url": "https://example.com/p/ornek.emrecelik-0",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 871,
+      "comments": 45,
+      "views": 20426,
+      "posted_at": "2026-10-15T10:00:00+00:00",
+      "paid": false,
+      "caption": "Yeni sezon kombin önerileri (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.emrecelik-1",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 1078,
+      "comments": 73,
+      "views": null,
+      "posted_at": "2026-10-13T10:00:00+00:00",
+      "paid": false,
+      "caption": "Haftalık cilt bakımı rutinim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.emrecelik-2",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 813,
+      "comments": 73,
+      "views": 24137,
+      "posted_at": "2026-10-11T10:00:00+00:00",
+      "paid": true,
+      "caption": "Kutudan çıkanlar: bu ay denediklerim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.emrecelik-3",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 829,
+      "comments": 39,
+      "views": null,
+      "posted_at": "2026-10-09T10:00:00+00:00",
+      "paid": false,
+      "caption": "Mutfakta 10 dakikalık tarif (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.emrecelik-4",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 723,
+      "comments": 41,
+      "views": 22465,
+      "posted_at": "2026-10-07T10:00:00+00:00",
+      "paid": false,
+      "caption": "Ev düzeni için küçük fikirler (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.emrecelik-5",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 921,
+      "comments": 74,
+      "views": null,
+      "posted_at": "2026-10-05T10:00:00+00:00",
+      "paid": false,
+      "caption": "Takipçi soruları (örnek)"
+     }
+    ],
     "rhythm": {
      "per_week": 1.4,
      "last_post_at": "2026-10-15T10:00:00+00:00"
@@ -1807,7 +1476,7 @@
      "Carousel": 4,
      "Image": 2
     },
-    "reels_avg_views": 550884,
+    "reels_avg_views": 14166,
     "paid_share": 14,
     "partners": [],
     "posts_measured": 12,
@@ -1817,10 +1486,10 @@
    }
   },
   {
-   "handle": "ornek.cemaslan",
+   "handle": "ornek.nehirkurt",
    "platform": "instagram",
    "pool": "trendyol",
-   "display_name": "Cem Aslan",
+   "display_name": "Nehir Kurt",
    "followers": 21281,
    "tier": "mikro",
    "er": 3.91,
@@ -1842,7 +1511,7 @@
     "MiniAdım"
    ],
    "avatar": null,
-   "profile_url": "https://example.com/ornek.cemaslan",
+   "profile_url": "https://example.com/ornek.nehirkurt",
    "first_seen_at": "2026-10-01T00:00:00+00:00",
    "analysis": {
     "quality": {
@@ -1875,7 +1544,1509 @@
       }
      ]
     },
-    "recent": [],
+    "recent": [
+     {
+      "url": "https://example.com/p/ornek.nehirkurt-0",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 1063,
+      "comments": 46,
+      "views": 8516,
+      "posted_at": "2026-10-15T10:00:00+00:00",
+      "paid": false,
+      "caption": "Yeni sezon kombin önerileri (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.nehirkurt-1",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 750,
+      "comments": 44,
+      "views": null,
+      "posted_at": "2026-10-13T10:00:00+00:00",
+      "paid": false,
+      "caption": "Haftalık cilt bakımı rutinim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.nehirkurt-2",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 866,
+      "comments": 26,
+      "views": 9239,
+      "posted_at": "2026-10-11T10:00:00+00:00",
+      "paid": true,
+      "caption": "Kutudan çıkanlar: bu ay denediklerim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.nehirkurt-3",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 995,
+      "comments": 51,
+      "views": null,
+      "posted_at": "2026-10-09T10:00:00+00:00",
+      "paid": false,
+      "caption": "Mutfakta 10 dakikalık tarif (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.nehirkurt-4",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 846,
+      "comments": 42,
+      "views": 12047,
+      "posted_at": "2026-10-07T10:00:00+00:00",
+      "paid": false,
+      "caption": "Ev düzeni için küçük fikirler (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.nehirkurt-5",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 774,
+      "comments": 25,
+      "views": null,
+      "posted_at": "2026-10-05T10:00:00+00:00",
+      "paid": false,
+      "caption": "Takipçi soruları (örnek)"
+     }
+    ],
+    "rhythm": {
+     "per_week": 0.7,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 8512,
+    "paid_share": 15,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.kaanyilmaz",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Kaan Yılmaz",
+   "followers": 1789836,
+   "tier": "mega",
+   "er": 0.92,
+   "er_posts": 12,
+   "segments": [
+    "spor",
+    "teknoloji"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": true,
+   "bio": "Örnek hesap · Fitness & spor içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "TeknoKare",
+    "EvGüzel"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.kaanyilmaz",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 66,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [
+     {
+      "url": "https://example.com/p/ornek.kaanyilmaz-0",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 13976,
+      "comments": 1800,
+      "views": 412712,
+      "posted_at": "2026-10-15T10:00:00+00:00",
+      "paid": false,
+      "caption": "Yeni sezon kombin önerileri (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.kaanyilmaz-1",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 15002,
+      "comments": 1804,
+      "views": null,
+      "posted_at": "2026-10-13T10:00:00+00:00",
+      "paid": false,
+      "caption": "Haftalık cilt bakımı rutinim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.kaanyilmaz-2",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 21183,
+      "comments": 1822,
+      "views": 1017633,
+      "posted_at": "2026-10-11T10:00:00+00:00",
+      "paid": true,
+      "caption": "Kutudan çıkanlar: bu ay denediklerim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.kaanyilmaz-3",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 16865,
+      "comments": 1792,
+      "views": null,
+      "posted_at": "2026-10-09T10:00:00+00:00",
+      "paid": false,
+      "caption": "Mutfakta 10 dakikalık tarif (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.kaanyilmaz-4",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 16098,
+      "comments": 1796,
+      "views": 876513,
+      "posted_at": "2026-10-07T10:00:00+00:00",
+      "paid": false,
+      "caption": "Ev düzeni için küçük fikirler (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.kaanyilmaz-5",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 14578,
+      "comments": 1800,
+      "views": null,
+      "posted_at": "2026-10-05T10:00:00+00:00",
+      "paid": false,
+      "caption": "Takipçi soruları (örnek)"
+     }
+    ],
+    "rhythm": {
+     "per_week": 2.6,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 715934,
+    "paid_share": 23,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.defneerdem",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Defne Erdem",
+   "followers": 9779,
+   "tier": "nano",
+   "er": 3.32,
+   "er_posts": 12,
+   "segments": [
+    "yemek"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Yemek & mutfak içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "Örnek Kozmetik"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.defneerdem",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 50,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [
+     {
+      "url": "https://example.com/p/ornek.defneerdem-0",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 348,
+      "comments": 14,
+      "views": 2474,
+      "posted_at": "2026-10-15T10:00:00+00:00",
+      "paid": false,
+      "caption": "Yeni sezon kombin önerileri (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.defneerdem-1",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 287,
+      "comments": 27,
+      "views": null,
+      "posted_at": "2026-10-13T10:00:00+00:00",
+      "paid": false,
+      "caption": "Haftalık cilt bakımı rutinim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.defneerdem-2",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 358,
+      "comments": 48,
+      "views": 7086,
+      "posted_at": "2026-10-11T10:00:00+00:00",
+      "paid": true,
+      "caption": "Kutudan çıkanlar: bu ay denediklerim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.defneerdem-3",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 260,
+      "comments": 10,
+      "views": null,
+      "posted_at": "2026-10-09T10:00:00+00:00",
+      "paid": false,
+      "caption": "Mutfakta 10 dakikalık tarif (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.defneerdem-4",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 391,
+      "comments": 50,
+      "views": 6933,
+      "posted_at": "2026-10-07T10:00:00+00:00",
+      "paid": false,
+      "caption": "Ev düzeni için küçük fikirler (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.defneerdem-5",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 374,
+      "comments": 33,
+      "views": null,
+      "posted_at": "2026-10-05T10:00:00+00:00",
+      "paid": false,
+      "caption": "Takipçi soruları (örnek)"
+     }
+    ],
+    "rhythm": {
+     "per_week": 4.6,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 3912,
+    "paid_share": 1,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.ozanaksoy",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Ozan Aksoy",
+   "followers": 19605,
+   "tier": "mikro",
+   "er": 3.97,
+   "er_posts": 12,
+   "segments": [
+    "yemek",
+    "moda"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Yemek & mutfak içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "MiniAdım",
+    "Pamuk Bebe"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.ozanaksoy",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 81,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [
+     {
+      "url": "https://example.com/p/ornek.ozanaksoy-0",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 875,
+      "comments": 20,
+      "views": 6807,
+      "posted_at": "2026-10-15T10:00:00+00:00",
+      "paid": false,
+      "caption": "Yeni sezon kombin önerileri (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.ozanaksoy-1",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 602,
+      "comments": 33,
+      "views": null,
+      "posted_at": "2026-10-13T10:00:00+00:00",
+      "paid": false,
+      "caption": "Haftalık cilt bakımı rutinim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.ozanaksoy-2",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 571,
+      "comments": 30,
+      "views": 9763,
+      "posted_at": "2026-10-11T10:00:00+00:00",
+      "paid": true,
+      "caption": "Kutudan çıkanlar: bu ay denediklerim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.ozanaksoy-3",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 794,
+      "comments": 41,
+      "views": null,
+      "posted_at": "2026-10-09T10:00:00+00:00",
+      "paid": false,
+      "caption": "Mutfakta 10 dakikalık tarif (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.ozanaksoy-4",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 985,
+      "comments": 23,
+      "views": 8069,
+      "posted_at": "2026-10-07T10:00:00+00:00",
+      "paid": false,
+      "caption": "Ev düzeni için küçük fikirler (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.ozanaksoy-5",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 583,
+      "comments": 25,
+      "views": null,
+      "posted_at": "2026-10-05T10:00:00+00:00",
+      "paid": false,
+      "caption": "Takipçi soruları (örnek)"
+     }
+    ],
+    "rhythm": {
+     "per_week": 0.7,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 7842,
+    "paid_share": 13,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.ipekgunes",
+   "platform": "tiktok",
+   "pool": "trendyol",
+   "display_name": "İpek Güneş",
+   "followers": 4588,
+   "tier": "nano",
+   "er": 3.16,
+   "er_posts": 12,
+   "segments": [
+    "anne_bebek",
+    "moda"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Aile & ebeveynlik içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "MiniAdım",
+    "TeknoKare"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.ipekgunes",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 90,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [
+     {
+      "url": "https://example.com/p/ornek.ipekgunes-0",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 160,
+      "comments": 19,
+      "views": 2955,
+      "posted_at": "2026-10-15T10:00:00+00:00",
+      "paid": false,
+      "caption": "Yeni sezon kombin önerileri (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.ipekgunes-1",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 142,
+      "comments": 15,
+      "views": null,
+      "posted_at": "2026-10-13T10:00:00+00:00",
+      "paid": false,
+      "caption": "Haftalık cilt bakımı rutinim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.ipekgunes-2",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 169,
+      "comments": 15,
+      "views": 2611,
+      "posted_at": "2026-10-11T10:00:00+00:00",
+      "paid": true,
+      "caption": "Kutudan çıkanlar: bu ay denediklerim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.ipekgunes-3",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 139,
+      "comments": 23,
+      "views": null,
+      "posted_at": "2026-10-09T10:00:00+00:00",
+      "paid": false,
+      "caption": "Mutfakta 10 dakikalık tarif (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.ipekgunes-4",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 177,
+      "comments": 9,
+      "views": 2284,
+      "posted_at": "2026-10-07T10:00:00+00:00",
+      "paid": false,
+      "caption": "Ev düzeni için küçük fikirler (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.ipekgunes-5",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 138,
+      "comments": 14,
+      "views": null,
+      "posted_at": "2026-10-05T10:00:00+00:00",
+      "paid": false,
+      "caption": "Takipçi soruları (örnek)"
+     }
+    ],
+    "rhythm": {
+     "per_week": 3.9,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 1835,
+    "paid_share": 28,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.adakorkmaz",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Ada Korkmaz",
+   "followers": 8823,
+   "tier": "nano",
+   "er": 2.79,
+   "er_posts": 12,
+   "segments": [
+    "spor",
+    "moda"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Fitness & spor içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "TeknoKare",
+    "Örnek Kozmetik"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.adakorkmaz",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 50,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [
+     {
+      "url": "https://example.com/p/ornek.adakorkmaz-0",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 239,
+      "comments": 38,
+      "views": 3458,
+      "posted_at": "2026-10-15T10:00:00+00:00",
+      "paid": false,
+      "caption": "Yeni sezon kombin önerileri (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.adakorkmaz-1",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 177,
+      "comments": 29,
+      "views": null,
+      "posted_at": "2026-10-13T10:00:00+00:00",
+      "paid": false,
+      "caption": "Haftalık cilt bakımı rutinim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.adakorkmaz-2",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 238,
+      "comments": 31,
+      "views": 1853,
+      "posted_at": "2026-10-11T10:00:00+00:00",
+      "paid": true,
+      "caption": "Kutudan çıkanlar: bu ay denediklerim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.adakorkmaz-3",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 288,
+      "comments": 26,
+      "views": null,
+      "posted_at": "2026-10-09T10:00:00+00:00",
+      "paid": false,
+      "caption": "Mutfakta 10 dakikalık tarif (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.adakorkmaz-4",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 276,
+      "comments": 39,
+      "views": 2207,
+      "posted_at": "2026-10-07T10:00:00+00:00",
+      "paid": false,
+      "caption": "Ev düzeni için küçük fikirler (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.adakorkmaz-5",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 315,
+      "comments": 41,
+      "views": null,
+      "posted_at": "2026-10-05T10:00:00+00:00",
+      "paid": false,
+      "caption": "Takipçi soruları (örnek)"
+     }
+    ],
+    "rhythm": {
+     "per_week": 4.7,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 3529,
+    "paid_share": 9,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.ardatekin",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Arda Tekin",
+   "followers": 18442,
+   "tier": "mikro",
+   "er": 1.42,
+   "er_posts": 12,
+   "segments": [
+    "anne_bebek",
+    "teknoloji"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Aile & ebeveynlik içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "TeknoKare",
+    "EvGüzel"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.ardatekin",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 76,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [
+     {
+      "url": "https://example.com/p/ornek.ardatekin-0",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 276,
+      "comments": 32,
+      "views": 10665,
+      "posted_at": "2026-10-15T10:00:00+00:00",
+      "paid": false,
+      "caption": "Yeni sezon kombin önerileri (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.ardatekin-1",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 198,
+      "comments": 36,
+      "views": null,
+      "posted_at": "2026-10-13T10:00:00+00:00",
+      "paid": false,
+      "caption": "Haftalık cilt bakımı rutinim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.ardatekin-2",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 243,
+      "comments": 22,
+      "views": 9438,
+      "posted_at": "2026-10-11T10:00:00+00:00",
+      "paid": true,
+      "caption": "Kutudan çıkanlar: bu ay denediklerim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.ardatekin-3",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 221,
+      "comments": 19,
+      "views": null,
+      "posted_at": "2026-10-09T10:00:00+00:00",
+      "paid": false,
+      "caption": "Mutfakta 10 dakikalık tarif (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.ardatekin-4",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 337,
+      "comments": 43,
+      "views": 6433,
+      "posted_at": "2026-10-07T10:00:00+00:00",
+      "paid": false,
+      "caption": "Ev düzeni için küçük fikirler (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.ardatekin-5",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 221,
+      "comments": 56,
+      "views": null,
+      "posted_at": "2026-10-05T10:00:00+00:00",
+      "paid": false,
+      "caption": "Takipçi soruları (örnek)"
+     }
+    ],
+    "rhythm": {
+     "per_week": 1.2,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 7377,
+    "paid_share": 29,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.durubulut",
+   "platform": "instagram",
+   "pool": "bagimsiz",
+   "display_name": "Duru Bulut",
+   "followers": 213096,
+   "tier": "orta",
+   "er": 1.2,
+   "er_posts": 12,
+   "segments": [
+    "anne_bebek",
+    "spor"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Aile & ebeveynlik içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.durubulut",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 84,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [
+     {
+      "url": "https://example.com/p/ornek.durubulut-0",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 3123,
+      "comments": 239,
+      "views": 43606,
+      "posted_at": "2026-10-15T10:00:00+00:00",
+      "paid": false,
+      "caption": "Yeni sezon kombin önerileri (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.durubulut-1",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 1818,
+      "comments": 220,
+      "views": null,
+      "posted_at": "2026-10-13T10:00:00+00:00",
+      "paid": false,
+      "caption": "Haftalık cilt bakımı rutinim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.durubulut-2",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 2242,
+      "comments": 253,
+      "views": 44431,
+      "posted_at": "2026-10-11T10:00:00+00:00",
+      "paid": true,
+      "caption": "Kutudan çıkanlar: bu ay denediklerim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.durubulut-3",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 1826,
+      "comments": 222,
+      "views": null,
+      "posted_at": "2026-10-09T10:00:00+00:00",
+      "paid": false,
+      "caption": "Mutfakta 10 dakikalık tarif (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.durubulut-4",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 2658,
+      "comments": 238,
+      "views": 57851,
+      "posted_at": "2026-10-07T10:00:00+00:00",
+      "paid": false,
+      "caption": "Ev düzeni için küçük fikirler (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.durubulut-5",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 2179,
+      "comments": 232,
+      "views": null,
+      "posted_at": "2026-10-05T10:00:00+00:00",
+      "paid": false,
+      "caption": "Takipçi soruları (örnek)"
+     }
+    ],
+    "rhythm": {
+     "per_week": 0.5,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 85238,
+    "paid_share": 20,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.efekilic",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Efe Kılıç",
+   "followers": 2484,
+   "tier": "nano",
+   "er": 4.63,
+   "er_posts": 12,
+   "segments": [
+    "ev_yasam",
+    "yemek"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Ev & dekorasyon içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "Pamuk Bebe",
+    "MiniAdım",
+    "FitHat"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.efekilic",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 56,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [
+     {
+      "url": "https://example.com/p/ornek.efekilic-0",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 103,
+      "comments": 23,
+      "views": 1627,
+      "posted_at": "2026-10-15T10:00:00+00:00",
+      "paid": false,
+      "caption": "Yeni sezon kombin önerileri (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.efekilic-1",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 121,
+      "comments": 33,
+      "views": null,
+      "posted_at": "2026-10-13T10:00:00+00:00",
+      "paid": false,
+      "caption": "Haftalık cilt bakımı rutinim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.efekilic-2",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 147,
+      "comments": 38,
+      "views": 838,
+      "posted_at": "2026-10-11T10:00:00+00:00",
+      "paid": true,
+      "caption": "Kutudan çıkanlar: bu ay denediklerim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.efekilic-3",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 93,
+      "comments": 29,
+      "views": null,
+      "posted_at": "2026-10-09T10:00:00+00:00",
+      "paid": false,
+      "caption": "Mutfakta 10 dakikalık tarif (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.efekilic-4",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 101,
+      "comments": 34,
+      "views": 1005,
+      "posted_at": "2026-10-07T10:00:00+00:00",
+      "paid": false,
+      "caption": "Ev düzeni için küçük fikirler (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.efekilic-5",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 107,
+      "comments": 12,
+      "views": null,
+      "posted_at": "2026-10-05T10:00:00+00:00",
+      "paid": false,
+      "caption": "Takipçi soruları (örnek)"
+     }
+    ],
+    "rhythm": {
+     "per_week": 1.6,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 994,
+    "paid_share": 37,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.laraozkan",
+   "platform": "tiktok",
+   "pool": "trendyol",
+   "display_name": "Lara Özkan",
+   "followers": 2192679,
+   "tier": "mega",
+   "er": 6.31,
+   "er_posts": 12,
+   "segments": [
+    "moda",
+    "anne_bebek"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Moda & aksesuar içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "TeknoKare"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.laraozkan",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 59,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [
+     {
+      "url": "https://example.com/p/ornek.laraozkan-0",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 125514,
+      "comments": 2221,
+      "views": 1173726,
+      "posted_at": "2026-10-15T10:00:00+00:00",
+      "paid": false,
+      "caption": "Yeni sezon kombin önerileri (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.laraozkan-1",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 164499,
+      "comments": 2215,
+      "views": null,
+      "posted_at": "2026-10-13T10:00:00+00:00",
+      "paid": false,
+      "caption": "Haftalık cilt bakımı rutinim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.laraozkan-2",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 121374,
+      "comments": 2225,
+      "views": 1425506,
+      "posted_at": "2026-10-11T10:00:00+00:00",
+      "paid": true,
+      "caption": "Kutudan çıkanlar: bu ay denediklerim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.laraozkan-3",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 166188,
+      "comments": 2223,
+      "views": null,
+      "posted_at": "2026-10-09T10:00:00+00:00",
+      "paid": false,
+      "caption": "Mutfakta 10 dakikalık tarif (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.laraozkan-4",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 153851,
+      "comments": 2216,
+      "views": 495338,
+      "posted_at": "2026-10-07T10:00:00+00:00",
+      "paid": false,
+      "caption": "Ev düzeni için küçük fikirler (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.laraozkan-5",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 162218,
+      "comments": 2232,
+      "views": null,
+      "posted_at": "2026-10-05T10:00:00+00:00",
+      "paid": false,
+      "caption": "Takipçi soruları (örnek)"
+     }
+    ],
+    "rhythm": {
+     "per_week": 0.6,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 877072,
+    "paid_share": 19,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.yagmurtas",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Yağmur Taş",
+   "followers": 51486,
+   "tier": "orta",
+   "er": 1.4,
+   "er_posts": 12,
+   "segments": [
+    "anne_bebek",
+    "guzellik_bakim"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Aile & ebeveynlik içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "MiniAdım",
+    "Kumaş & Co"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.yagmurtas",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 58,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [
+     {
+      "url": "https://example.com/p/ornek.yagmurtas-0",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 624,
+      "comments": 71,
+      "views": 20799,
+      "posted_at": "2026-10-15T10:00:00+00:00",
+      "paid": false,
+      "caption": "Yeni sezon kombin önerileri (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.yagmurtas-1",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 550,
+      "comments": 79,
+      "views": null,
+      "posted_at": "2026-10-13T10:00:00+00:00",
+      "paid": false,
+      "caption": "Haftalık cilt bakımı rutinim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.yagmurtas-2",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 581,
+      "comments": 54,
+      "views": 15285,
+      "posted_at": "2026-10-11T10:00:00+00:00",
+      "paid": true,
+      "caption": "Kutudan çıkanlar: bu ay denediklerim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.yagmurtas-3",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 546,
+      "comments": 75,
+      "views": null,
+      "posted_at": "2026-10-09T10:00:00+00:00",
+      "paid": false,
+      "caption": "Mutfakta 10 dakikalık tarif (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.yagmurtas-4",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 646,
+      "comments": 72,
+      "views": 12720,
+      "posted_at": "2026-10-07T10:00:00+00:00",
+      "paid": false,
+      "caption": "Ev düzeni için küçük fikirler (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.yagmurtas-5",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 765,
+      "comments": 85,
+      "views": null,
+      "posted_at": "2026-10-05T10:00:00+00:00",
+      "paid": false,
+      "caption": "Takipçi soruları (örnek)"
+     }
+    ],
     "rhythm": {
      "per_week": 4.8,
      "last_post_at": "2026-10-15T10:00:00+00:00"
@@ -1885,8 +3056,440 @@
      "Carousel": 4,
      "Image": 2
     },
-    "reels_avg_views": 8512,
-    "paid_share": 24,
+    "reels_avg_views": 20594,
+    "paid_share": 16,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.egedogan",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Ege Doğan",
+   "followers": 80377,
+   "tier": "orta",
+   "er": 4.22,
+   "er_posts": 12,
+   "segments": [
+    "yemek",
+    "guzellik_bakim"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Yemek & mutfak içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "Lezzet Atölyesi",
+    "Kumaş & Co",
+    "EvGüzel",
+    "Örnek Kozmetik"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.egedogan",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 59,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [
+     {
+      "url": "https://example.com/p/ornek.egedogan-0",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 3979,
+      "comments": 109,
+      "views": 58132,
+      "posted_at": "2026-10-15T10:00:00+00:00",
+      "paid": false,
+      "caption": "Yeni sezon kombin önerileri (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.egedogan-1",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 3096,
+      "comments": 107,
+      "views": null,
+      "posted_at": "2026-10-13T10:00:00+00:00",
+      "paid": false,
+      "caption": "Haftalık cilt bakımı rutinim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.egedogan-2",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 3546,
+      "comments": 110,
+      "views": 59783,
+      "posted_at": "2026-10-11T10:00:00+00:00",
+      "paid": true,
+      "caption": "Kutudan çıkanlar: bu ay denediklerim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.egedogan-3",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 3842,
+      "comments": 96,
+      "views": null,
+      "posted_at": "2026-10-09T10:00:00+00:00",
+      "paid": false,
+      "caption": "Mutfakta 10 dakikalık tarif (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.egedogan-4",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 4154,
+      "comments": 109,
+      "views": 50109,
+      "posted_at": "2026-10-07T10:00:00+00:00",
+      "paid": false,
+      "caption": "Ev düzeni için küçük fikirler (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.egedogan-5",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 4367,
+      "comments": 81,
+      "views": null,
+      "posted_at": "2026-10-05T10:00:00+00:00",
+      "paid": false,
+      "caption": "Takipçi soruları (örnek)"
+     }
+    ],
+    "rhythm": {
+     "per_week": 0.5,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 32151,
+    "paid_share": 25,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.melisucar",
+   "platform": "instagram",
+   "pool": "bagimsiz",
+   "display_name": "Melis Uçar",
+   "followers": 2677129,
+   "tier": "mega",
+   "er": 5.12,
+   "er_posts": 12,
+   "segments": [
+    "teknoloji",
+    "guzellik_bakim"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Teknoloji içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.melisucar",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 80,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [
+     {
+      "url": "https://example.com/p/ornek.melisucar-0",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 171531,
+      "comments": 2681,
+      "views": 876436,
+      "posted_at": "2026-10-15T10:00:00+00:00",
+      "paid": false,
+      "caption": "Yeni sezon kombin önerileri (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.melisucar-1",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 161734,
+      "comments": 2682,
+      "views": null,
+      "posted_at": "2026-10-13T10:00:00+00:00",
+      "paid": false,
+      "caption": "Haftalık cilt bakımı rutinim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.melisucar-2",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 105769,
+      "comments": 2711,
+      "views": 1833709,
+      "posted_at": "2026-10-11T10:00:00+00:00",
+      "paid": true,
+      "caption": "Kutudan çıkanlar: bu ay denediklerim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.melisucar-3",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 161905,
+      "comments": 2696,
+      "views": null,
+      "posted_at": "2026-10-09T10:00:00+00:00",
+      "paid": false,
+      "caption": "Mutfakta 10 dakikalık tarif (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.melisucar-4",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 139995,
+      "comments": 2704,
+      "views": 688528,
+      "posted_at": "2026-10-07T10:00:00+00:00",
+      "paid": false,
+      "caption": "Ev düzeni için küçük fikirler (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.melisucar-5",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 156216,
+      "comments": 2684,
+      "views": null,
+      "posted_at": "2026-10-05T10:00:00+00:00",
+      "paid": false,
+      "caption": "Takipçi soruları (örnek)"
+     }
+    ],
+    "rhythm": {
+     "per_week": 0.7,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 1070852,
+    "paid_share": 33,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.cemaslan",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Cem Aslan",
+   "followers": 276898,
+   "tier": "orta",
+   "er": 5.81,
+   "er_posts": 12,
+   "segments": [
+    "moda",
+    "guzellik_bakim"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Moda & aksesuar içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "Örnek Kozmetik",
+    "MiniAdım",
+    "EvGüzel"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.cemaslan",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 73,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [
+     {
+      "url": "https://example.com/p/ornek.cemaslan-0",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 18632,
+      "comments": 291,
+      "views": 104053,
+      "posted_at": "2026-10-15T10:00:00+00:00",
+      "paid": false,
+      "caption": "Yeni sezon kombin önerileri (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.cemaslan-1",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 12455,
+      "comments": 282,
+      "views": null,
+      "posted_at": "2026-10-13T10:00:00+00:00",
+      "paid": false,
+      "caption": "Haftalık cilt bakımı rutinim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.cemaslan-2",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 12992,
+      "comments": 293,
+      "views": 100382,
+      "posted_at": "2026-10-11T10:00:00+00:00",
+      "paid": true,
+      "caption": "Kutudan çıkanlar: bu ay denediklerim (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.cemaslan-3",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 16966,
+      "comments": 277,
+      "views": null,
+      "posted_at": "2026-10-09T10:00:00+00:00",
+      "paid": false,
+      "caption": "Mutfakta 10 dakikalık tarif (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.cemaslan-4",
+      "kind": "Reel",
+      "thumb": null,
+      "likes": 13456,
+      "comments": 315,
+      "views": 114615,
+      "posted_at": "2026-10-07T10:00:00+00:00",
+      "paid": false,
+      "caption": "Ev düzeni için küçük fikirler (örnek)"
+     },
+     {
+      "url": "https://example.com/p/ornek.cemaslan-5",
+      "kind": "Carousel",
+      "thumb": null,
+      "likes": 15159,
+      "comments": 303,
+      "views": null,
+      "posted_at": "2026-10-05T10:00:00+00:00",
+      "paid": false,
+      "caption": "Takipçi soruları (örnek)"
+     }
+    ],
+    "rhythm": {
+     "per_week": 4.4,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 110759,
+    "paid_share": 9,
     "partners": [],
     "posts_measured": 12,
     "followers_history": [],

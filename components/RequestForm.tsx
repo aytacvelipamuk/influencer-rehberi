@@ -32,6 +32,9 @@ export function RequestForm({ endpoint, fields, submitLabel, success, consents =
     const form = new FormData(e.currentTarget);
     const body: Record<string, unknown> = Object.fromEntries(form.entries());
     for (const c of consents) body[c.name] = form.get(c.name) === "on";
+    // Hangi kanal talep getirdi: sayfa adresindeki UTM değerleri talebe eklenir (sunucu doğrular).
+    const utm = new URLSearchParams(window.location.search);
+    for (const k of ["utm_source", "utm_medium", "utm_campaign"]) if (utm.get(k)) body[k] = utm.get(k);
     setState("sending");
     setError(null);
     try {

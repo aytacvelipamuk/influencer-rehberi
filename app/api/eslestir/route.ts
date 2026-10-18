@@ -1,4 +1,4 @@
-import { parseEmail, parseStoreUrl, cleanNote } from "@/lib/requests";
+import { cleanNote, cleanUtm, parseEmail, parseStoreUrl } from "@/lib/requests";
 import { allowed, clientIp, saveRequest } from "@/lib/store";
 
 export async function POST(req: Request) {
@@ -18,6 +18,7 @@ export async function POST(req: Request) {
       email: email.value,
       marketing_consent: body.marketing === true,
       note: cleanNote(body.note),
+      ...cleanUtm(body),
     });
   } catch (error) {
     console.error("[eslestir] talep yazılamadı", error);

@@ -38,4 +38,16 @@ export function parseHandle(raw: unknown): Result<string> {
   return m ? { ok: true, value: m[1].toLowerCase() } : { ok: false, error: "Hesap adını @ile ya da @'siz yaz." };
 }
 
+const UTM_RE = /^[A-Za-z0-9._-]{1,60}$/;
+
+/** UTM değerleri yalnız güvenli karakterlerle, en çok 60 karakter; geçersizse atılır. */
+export function cleanUtm(body: Record<string, unknown>): Record<string, string> {
+  const out: Record<string, string> = {};
+  for (const k of ["utm_source", "utm_medium", "utm_campaign"]) {
+    const v = body[k];
+    if (typeof v === "string" && UTM_RE.test(v)) out[k] = v;
+  }
+  return out;
+}
+
 export const cleanNote = (raw: unknown) => (typeof raw === "string" ? raw.trim().slice(0, NOTE_MAX) : "");

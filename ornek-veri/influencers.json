@@ -1,0 +1,1898 @@
+{
+ "generated_at": "2026-10-18T12:00:00+00:00",
+ "count": 24,
+ "labels": {
+  "segments": {
+   "moda": "Moda & aksesuar",
+   "guzellik_bakim": "Güzellik & bakım",
+   "anne_bebek": "Aile & ebeveynlik (mommy)",
+   "ev_yasam": "Ev & dekorasyon",
+   "yemek": "Yemek & mutfak",
+   "spor": "Fitness & spor",
+   "teknoloji": "Teknoloji"
+  },
+  "tiers": [
+   {
+    "key": "aday",
+    "from": 0,
+    "to": 1000
+   },
+   {
+    "key": "nano",
+    "from": 1000,
+    "to": 10000
+   },
+   {
+    "key": "mikro",
+    "from": 10000,
+    "to": 50000
+   },
+   {
+    "key": "orta",
+    "from": 50000,
+    "to": 500000
+   },
+   {
+    "key": "makro",
+    "from": 500000,
+    "to": 1000000
+   },
+   {
+    "key": "mega",
+    "from": 1000000,
+    "to": null
+   }
+  ]
+ },
+ "influencers": [
+  {
+   "handle": "ornek.eceyildiz",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Ece Yıldız",
+   "followers": 74192,
+   "tier": "orta",
+   "er": 3.44,
+   "er_posts": 12,
+   "segments": [
+    "ev_yasam",
+    "moda"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Ev & dekorasyon içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "EvGüzel"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.eceyildiz",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 90,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [],
+    "rhythm": {
+     "per_week": 2.9,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 29677,
+    "paid_share": 16,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.denizkaya",
+   "platform": "instagram",
+   "pool": "bagimsiz",
+   "display_name": "Deniz Kaya",
+   "followers": 16264,
+   "tier": "mikro",
+   "er": 3.39,
+   "er_posts": 12,
+   "segments": [
+    "spor",
+    "yemek"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Fitness & spor içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.denizkaya",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 80,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [],
+    "rhythm": {
+     "per_week": 0.8,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 6506,
+    "paid_share": 22,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.selinaydin",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Selin Aydın",
+   "followers": 72485,
+   "tier": "orta",
+   "er": 2.92,
+   "er_posts": 12,
+   "segments": [
+    "guzellik_bakim",
+    "moda"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Güzellik & bakım içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "Pamuk Bebe",
+    "Örnek Kozmetik",
+    "EvGüzel",
+    "Kumaş & Co"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.selinaydin",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 80,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [],
+    "rhythm": {
+     "per_week": 1.4,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 28994,
+    "paid_share": 7,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.mertdemir",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Mert Demir",
+   "followers": 2851071,
+   "tier": "mega",
+   "er": 2.51,
+   "er_posts": 12,
+   "segments": [
+    "ev_yasam",
+    "guzellik_bakim"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Ev & dekorasyon içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "MiniAdım",
+    "Kumaş & Co",
+    "TeknoKare"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.mertdemir",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 54,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [],
+    "rhythm": {
+     "per_week": 4.6,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 1140428,
+    "paid_share": 10,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.zeynepsahin",
+   "platform": "tiktok",
+   "pool": "trendyol",
+   "display_name": "Zeynep Şahin",
+   "followers": 1349691,
+   "tier": "mega",
+   "er": 1.22,
+   "er_posts": 12,
+   "segments": [
+    "ev_yasam",
+    "guzellik_bakim"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Ev & dekorasyon içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "EvGüzel",
+    "TeknoKare",
+    "FitHat"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.zeynepsahin",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 70,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [],
+    "rhythm": {
+     "per_week": 0.5,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 539876,
+    "paid_share": 2,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.canozturk",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Can Öztürk",
+   "followers": 41713,
+   "tier": "mikro",
+   "er": 3.1,
+   "er_posts": 12,
+   "segments": [
+    "yemek"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Yemek & mutfak içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "MiniAdım",
+    "EvGüzel",
+    "TeknoKare"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.canozturk",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 62,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [],
+    "rhythm": {
+     "per_week": 1.2,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 16685,
+    "paid_share": 30,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.elifarslan",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Elif Arslan",
+   "followers": 5283,
+   "tier": "nano",
+   "er": 3.73,
+   "er_posts": 12,
+   "segments": [
+    "guzellik_bakim",
+    "spor"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Güzellik & bakım içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "Pamuk Bebe",
+    "TeknoKare",
+    "FitHat"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.elifarslan",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 65,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [],
+    "rhythm": {
+     "per_week": 1.8,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 2113,
+    "paid_share": 9,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.burakkoc",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Burak Koç",
+   "followers": 36342,
+   "tier": "mikro",
+   "er": 0.44,
+   "er_posts": 12,
+   "segments": [
+    "yemek",
+    "spor"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Yemek & mutfak içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "Pamuk Bebe"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.burakkoc",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 76,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [],
+    "rhythm": {
+     "per_week": 2.2,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 14537,
+    "paid_share": 4,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.aysepolat",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Ayşe Polat",
+   "followers": 2956909,
+   "tier": "mega",
+   "er": 5.78,
+   "er_posts": 12,
+   "segments": [
+    "ev_yasam",
+    "teknoloji"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Ev & dekorasyon içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "EvGüzel",
+    "Kumaş & Co",
+    "TeknoKare"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.aysepolat",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 51,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [],
+    "rhythm": {
+     "per_week": 0.8,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 1182764,
+    "paid_share": 28,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.emrecelik",
+   "platform": "tiktok",
+   "pool": "trendyol",
+   "display_name": "Emre Çelik",
+   "followers": 341758,
+   "tier": "orta",
+   "er": 1.41,
+   "er_posts": 12,
+   "segments": [
+    "yemek",
+    "teknoloji"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Yemek & mutfak içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "TeknoKare"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.emrecelik",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 54,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [],
+    "rhythm": {
+     "per_week": 0.1,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 136703,
+    "paid_share": 21,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.nehirkurt",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Nehir Kurt",
+   "followers": 910689,
+   "tier": "makro",
+   "er": 3.33,
+   "er_posts": 12,
+   "segments": [
+    "spor",
+    "guzellik_bakim"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Fitness & spor içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "Örnek Kozmetik",
+    "MiniAdım"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.nehirkurt",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 66,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [],
+    "rhythm": {
+     "per_week": 1.2,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 364276,
+    "paid_share": 12,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.kaanyilmaz",
+   "platform": "instagram",
+   "pool": "bagimsiz",
+   "display_name": "Kaan Yılmaz",
+   "followers": 677325,
+   "tier": "makro",
+   "er": 4.14,
+   "er_posts": 12,
+   "segments": [
+    "moda",
+    "guzellik_bakim"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Moda & aksesuar içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.kaanyilmaz",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 68,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [],
+    "rhythm": {
+     "per_week": 0.5,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 270930,
+    "paid_share": 19,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.defneerdem",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Defne Erdem",
+   "followers": 42458,
+   "tier": "mikro",
+   "er": 5.98,
+   "er_posts": 12,
+   "segments": [
+    "moda",
+    "spor"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Moda & aksesuar içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "FitHat",
+    "MiniAdım"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.defneerdem",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 79,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [],
+    "rhythm": {
+     "per_week": 1.3,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 16983,
+    "paid_share": 14,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.ozanaksoy",
+   "platform": "instagram",
+   "pool": "bagimsiz",
+   "display_name": "Ozan Aksoy",
+   "followers": 3531,
+   "tier": "nano",
+   "er": 1.52,
+   "er_posts": 12,
+   "segments": [
+    "teknoloji",
+    "moda"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Teknoloji içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.ozanaksoy",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 51,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [],
+    "rhythm": {
+     "per_week": 3,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 1412,
+    "paid_share": 18,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.ipekgunes",
+   "platform": "tiktok",
+   "pool": "trendyol",
+   "display_name": "İpek Güneş",
+   "followers": 32216,
+   "tier": "mikro",
+   "er": 4.37,
+   "er_posts": 12,
+   "segments": [
+    "ev_yasam",
+    "teknoloji"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Ev & dekorasyon içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "EvGüzel",
+    "Örnek Kozmetik",
+    "Pamuk Bebe"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.ipekgunes",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 91,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [],
+    "rhythm": {
+     "per_week": 3.4,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 12886,
+    "paid_share": 18,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.adakorkmaz",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Ada Korkmaz",
+   "followers": 2486790,
+   "tier": "mega",
+   "er": 5.89,
+   "er_posts": 12,
+   "segments": [
+    "teknoloji",
+    "anne_bebek"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Teknoloji içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "FitHat",
+    "TeknoKare"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.adakorkmaz",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 95,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [],
+    "rhythm": {
+     "per_week": 3.2,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 994716,
+    "paid_share": 33,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.ardatekin",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Arda Tekin",
+   "followers": 51270,
+   "tier": "orta",
+   "er": 5.09,
+   "er_posts": 12,
+   "segments": [
+    "moda",
+    "teknoloji"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Moda & aksesuar içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "FitHat",
+    "EvGüzel",
+    "TeknoKare"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.ardatekin",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 70,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [],
+    "rhythm": {
+     "per_week": 4.4,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 20508,
+    "paid_share": 29,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.durubulut",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Duru Bulut",
+   "followers": 2928,
+   "tier": "nano",
+   "er": 3.57,
+   "er_posts": 12,
+   "segments": [
+    "anne_bebek",
+    "ev_yasam"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Aile & ebeveynlik içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "FitHat",
+    "Kumaş & Co"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.durubulut",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 51,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [],
+    "rhythm": {
+     "per_week": 4.8,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 1171,
+    "paid_share": 21,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.efekilic",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Efe Kılıç",
+   "followers": 2592,
+   "tier": "nano",
+   "er": 5.85,
+   "er_posts": 12,
+   "segments": [
+    "anne_bebek",
+    "guzellik_bakim"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Aile & ebeveynlik içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "Kumaş & Co",
+    "FitHat",
+    "MiniAdım"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.efekilic",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 68,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [],
+    "rhythm": {
+     "per_week": 4.2,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 1037,
+    "paid_share": 7,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.laraozkan",
+   "platform": "tiktok",
+   "pool": "trendyol",
+   "display_name": "Lara Özkan",
+   "followers": 25258,
+   "tier": "mikro",
+   "er": 1.9,
+   "er_posts": 12,
+   "segments": [
+    "anne_bebek",
+    "teknoloji"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Aile & ebeveynlik içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "Örnek Kozmetik",
+    "Kumaş & Co",
+    "EvGüzel"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.laraozkan",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 73,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [],
+    "rhythm": {
+     "per_week": 1.7,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 10103,
+    "paid_share": 1,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.yagmurtas",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Yağmur Taş",
+   "followers": 3125,
+   "tier": "nano",
+   "er": 1.74,
+   "er_posts": 12,
+   "segments": [
+    "spor",
+    "ev_yasam"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Fitness & spor içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "Pamuk Bebe",
+    "Örnek Kozmetik",
+    "EvGüzel"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.yagmurtas",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 51,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [],
+    "rhythm": {
+     "per_week": 0.6,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 1250,
+    "paid_share": 29,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.egedogan",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Ege Doğan",
+   "followers": 1057936,
+   "tier": "mega",
+   "er": 1.79,
+   "er_posts": 12,
+   "segments": [
+    "moda",
+    "ev_yasam"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Moda & aksesuar içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "MiniAdım"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.egedogan",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 72,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [],
+    "rhythm": {
+     "per_week": 1.1,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 423174,
+    "paid_share": 25,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.melisucar",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Melis Uçar",
+   "followers": 1377209,
+   "tier": "mega",
+   "er": 4.74,
+   "er_posts": 12,
+   "segments": [
+    "teknoloji",
+    "anne_bebek"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Teknoloji içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "TeknoKare",
+    "EvGüzel",
+    "Örnek Kozmetik",
+    "Kumaş & Co"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.melisucar",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 93,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [],
+    "rhythm": {
+     "per_week": 1.4,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 550884,
+    "paid_share": 14,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  },
+  {
+   "handle": "ornek.cemaslan",
+   "platform": "instagram",
+   "pool": "trendyol",
+   "display_name": "Cem Aslan",
+   "followers": 21281,
+   "tier": "mikro",
+   "er": 3.91,
+   "er_posts": 12,
+   "segments": [
+    "guzellik_bakim",
+    "teknoloji"
+   ],
+   "marketplaces": [
+    "trendyol"
+   ],
+   "verified": false,
+   "bio": "Örnek hesap · Güzellik & bakım içerikleri. Gerçek kişi değildir.",
+   "business_category": null,
+   "collection_url": null,
+   "brands": [
+    "TeknoKare",
+    "FitHat",
+    "MiniAdım"
+   ],
+   "avatar": null,
+   "profile_url": "https://example.com/ornek.cemaslan",
+   "first_seen_at": "2026-10-01T00:00:00+00:00",
+   "analysis": {
+    "quality": {
+     "score": 82,
+     "label": "Örnek",
+     "components": [
+      {
+       "key": "etkilesim",
+       "label": "Etkileşim / beklenen",
+       "max": 30,
+       "points": 22,
+       "value": 1.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "oran",
+       "label": "Yorum / beğeni",
+       "max": 10,
+       "points": 10,
+       "value": 2.1,
+       "note": "Örnek bileşen"
+      },
+      {
+       "key": "takip",
+       "label": "Takip / takipçi",
+       "max": 10,
+       "points": 9,
+       "value": 0.3,
+       "note": "Örnek bileşen"
+      }
+     ]
+    },
+    "recent": [],
+    "rhythm": {
+     "per_week": 4.8,
+     "last_post_at": "2026-10-15T10:00:00+00:00"
+    },
+    "mix": {
+     "Reel": 6,
+     "Carousel": 4,
+     "Image": 2
+    },
+    "reels_avg_views": 8512,
+    "paid_share": 24,
+    "partners": [],
+    "posts_measured": 12,
+    "followers_history": [],
+    "expected_er": 2,
+    "highlights": []
+   }
+  }
+ ]
+}

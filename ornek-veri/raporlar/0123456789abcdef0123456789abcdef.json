@@ -1,0 +1,208 @@
+{
+ "token": "0123456789abcdef0123456789abcdef",
+ "created_at": "2026-10-18T12:00:00+00:00",
+ "store": {
+  "merchant_id": "000000",
+  "store_name": "Örnek Mağaza",
+  "categories": [
+   {
+    "name": "Cilt Bakımı",
+    "key": "cilt-bakimi",
+    "products": 12
+   }
+  ],
+  "brands": [
+   "Örnek Kozmetik"
+  ],
+  "median_price": 349,
+  "product_count": 12,
+  "products": []
+ },
+ "scope": {
+  "key": null,
+  "title": "Güzellik & bakım"
+ },
+ "competitors": [
+  {
+   "brand": "Örnek Kozmetik",
+   "products": 40,
+   "influencers": 5
+  },
+  {
+   "brand": "Kumaş & Co",
+   "products": 34,
+   "influencers": 4
+  },
+  {
+   "brand": "MiniAdım",
+   "products": 28,
+   "influencers": 3
+  },
+  {
+   "brand": "EvGüzel",
+   "products": 22,
+   "influencers": 2
+  },
+  {
+   "brand": "Lezzet Atölyesi",
+   "products": 16,
+   "influencers": 1
+  }
+ ],
+ "evidence_counts": {
+  "marka": 3,
+  "konu": 2,
+  "arama": 2,
+  "segment": 1
+ },
+ "candidates": 8,
+ "recommendations": [
+  {
+   "handle": "ornek.eceyildiz",
+   "platform": "instagram",
+   "score": 85,
+   "evidence": "marka",
+   "reasons": [
+    "Örnek gerekçe: rakip markayla çalışmış",
+    "Etkileşim %3.44",
+    "Takipçi büyüklüğü mağazanın ölçeğine uygun"
+   ],
+   "warnings": [],
+   "brands": [
+    "EvGüzel"
+   ],
+   "followers": 74192,
+   "tier": "orta",
+   "er": 3.44
+  },
+  {
+   "handle": "ornek.denizkaya",
+   "platform": "instagram",
+   "score": 80,
+   "evidence": "konu",
+   "reasons": [
+    "Örnek gerekçe: rakip markayla çalışmış",
+    "Etkileşim %3.39",
+    "Takipçi büyüklüğü mağazanın ölçeğine uygun"
+   ],
+   "warnings": [],
+   "brands": [],
+   "followers": 16264,
+   "tier": "mikro",
+   "er": 3.39
+  },
+  {
+   "handle": "ornek.selinaydin",
+   "platform": "instagram",
+   "score": 75,
+   "evidence": "arama",
+   "reasons": [
+    "Örnek gerekçe: rakip markayla çalışmış",
+    "Etkileşim %2.92",
+    "Takipçi büyüklüğü mağazanın ölçeğine uygun"
+   ],
+   "warnings": [],
+   "brands": [
+    "Pamuk Bebe",
+    "Örnek Kozmetik"
+   ],
+   "followers": 72485,
+   "tier": "orta",
+   "er": 2.92
+  },
+  {
+   "handle": "ornek.mertdemir",
+   "platform": "instagram",
+   "score": 70,
+   "evidence": "marka_zayif",
+   "reasons": [
+    "Örnek gerekçe: rakip markayla çalışmış",
+    "Etkileşim %2.51",
+    "Takipçi büyüklüğü mağazanın ölçeğine uygun"
+   ],
+   "warnings": [],
+   "brands": [
+    "MiniAdım",
+    "Kumaş & Co"
+   ],
+   "followers": 2851071,
+   "tier": "mega",
+   "er": 2.51
+  },
+  {
+   "handle": "ornek.canozturk",
+   "platform": "instagram",
+   "score": 65,
+   "evidence": "segment",
+   "reasons": [
+    "Örnek gerekçe: rakip markayla çalışmış",
+    "Etkileşim %3.1",
+    "Takipçi büyüklüğü mağazanın ölçeğine uygun"
+   ],
+   "warnings": [],
+   "brands": [
+    "MiniAdım",
+    "EvGüzel"
+   ],
+   "followers": 41713,
+   "tier": "mikro",
+   "er": 3.1
+  },
+  {
+   "handle": "ornek.elifarslan",
+   "platform": "instagram",
+   "score": 60,
+   "evidence": "marka",
+   "reasons": [
+    "Örnek gerekçe: rakip markayla çalışmış",
+    "Etkileşim %3.73",
+    "Takipçi büyüklüğü mağazanın ölçeğine uygun"
+   ],
+   "warnings": [],
+   "brands": [
+    "Pamuk Bebe",
+    "TeknoKare"
+   ],
+   "followers": 5283,
+   "tier": "nano",
+   "er": 3.73
+  },
+  {
+   "handle": "ornek.burakkoc",
+   "platform": "instagram",
+   "score": 55,
+   "evidence": "konu",
+   "reasons": [
+    "Örnek gerekçe: rakip markayla çalışmış",
+    "Etkileşim %0.44",
+    "Takipçi büyüklüğü mağazanın ölçeğine uygun"
+   ],
+   "warnings": [],
+   "brands": [
+    "Pamuk Bebe"
+   ],
+   "followers": 36342,
+   "tier": "mikro",
+   "er": 0.44
+  },
+  {
+   "handle": "ornek.aysepolat",
+   "platform": "instagram",
+   "score": 50,
+   "evidence": "arama",
+   "reasons": [
+    "Örnek gerekçe: rakip markayla çalışmış",
+    "Etkileşim %5.78",
+    "Takipçi büyüklüğü mağazanın ölçeğine uygun"
+   ],
+   "warnings": [],
+   "brands": [
+    "EvGüzel",
+    "Kumaş & Co"
+   ],
+   "followers": 2956909,
+   "tier": "mega",
+   "er": 5.78
+  }
+ ]
+}

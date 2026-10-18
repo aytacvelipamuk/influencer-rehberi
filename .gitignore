@@ -1,0 +1,15 @@
+node_modules
+.next
+out
+next-env.d.ts
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+.DS_Store
+npm-debug.log*
+
+# Toplanan veri ve talepler — kişi verisi git'e girmez
+/data
+/talepler
+/hesaplar.csv

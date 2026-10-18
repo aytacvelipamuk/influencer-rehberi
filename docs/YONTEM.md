@@ -39,3 +39,4 @@ Bu bir tahmindir; sahte takipçiyi doğrudan saymaz. Kesin sonuç için takipçi
 Kanıt gücü (rakip markayla iş birliği 45 · konu paylaşımı 35 · kategori araması 25 · yakın marka 15 · segment 8) +
 etkileşim (%6 ve üstü tam 25; %25 üstü ölçüm hatası sayılır, puana girmez; %0,5 altı −20) + mağaza ölçeğine uygun
 basamak (küçük mağaza: mikro 20, nano/mid-tier 15) + Trendyol koleksiyonu (10). Ücret kullanılmaz.
+Kod: `lib/scoring/match.ts` (`scoreMatch`, `storeSize`; 50 üründen az mağaza "küçük").

@@ -47,4 +47,27 @@ describe("toplayıcı dönüştürücüsü", () => {
   it("kategori bulamazsa lifestyle der", () => {
     expect(classify("merhaba dünya")).toEqual(["lifestyle"]);
   });
+
+  it("yeni güzellik kelimelerini tanır (fondöten, nemlendirici, spf)", () => {
+    expect(classify("Fondöten incelemesi, nemlendirici ve spf önerileri")).toEqual(["guzellik_bakim"]);
+  });
+
+  it("kelimeyi yalnız kelime başında arar ('ödev' içindeki 'ev' sayılmaz)", () => {
+    expect(classify("ödev ödev evrak kederli kedere")).toEqual(["lifestyle"]);
+  });
+
+  it("kısa kelimeler (ev, pet) yalnız tam kelimeyse sayılır", () => {
+    expect(classify("evimden ev turu, yeni ev dekorasyonu")).toContain("ev_yasam");
+    expect(classify("petrol peteğe petek")).toEqual(["lifestyle"]);
+  });
+
+  it("Türkçe ekleri tolere eder (elbiseler, kombinlerim)", () => {
+    expect(classify("Elbiseler ve kombinlerim")).toEqual(["moda"]);
+  });
+
+  it("anne-bebek, spor ve teknolojiyi İngilizce kelimelerle de bulur", () => {
+    expect(classify("newborn baby, toddler mom life")).toEqual(["anne_bebek"]);
+    expect(classify("workout routine, gym and running")).toEqual(["spor"]);
+    expect(classify("smartphone review, laptop setup")).toEqual(["teknoloji"]);
+  });
 });

@@ -2,15 +2,11 @@
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useRef, useState, useTransition } from "react";
 import { PLATFORM_NAMES, POOL_NAMES, shortSegment, TIER_NAMES } from "@/lib/format";
+import { metin } from "@/lib/metinler";
 
 const DEBOUNCE_MS = 300;
-const SORTS = [
-  ["followers", "Takipçi"],
-  ["er", "Etkileşim oranı"],
-  ["kalite", "Kitle kalitesi"],
-  ["brands", "Marka deneyimi"],
-  ["newest", "En yeni"],
-] as const;
+const T = metin.filters;
+const SORTS = Object.entries(T.sorts);
 const ER_STEPS = ["1", "2", "3", "5"];
 const QUALITY_STEPS = ["40", "60", "80"];
 
@@ -59,12 +55,12 @@ export function FilterBar({ segments, tiers }: { segments: Record<string, string
   return (
     <div className="flex flex-col gap-4 bg-paper py-4" aria-busy={pending}>
       <label className="relative block">
-        <span className="sr-only">Ara</span>
+        <span className="sr-only">{T.searchLabel}</span>
         <input
           type="search"
           value={q}
           onChange={(e) => setQ(e.target.value)}
-          placeholder="İsim, hesap adı, marka ya da bio içinde ara…"
+          placeholder={T.searchPlaceholder}
           className="h-14 w-full rounded-full border border-line bg-blush px-6 pr-12 text-base text-ink placeholder:text-faint transition-colors focus:border-pink"
         />
         <span
@@ -75,13 +71,13 @@ export function FilterBar({ segments, tiers }: { segments: Record<string, string
         />
       </label>
       <div className="grid grid-cols-2 gap-3 md:grid-cols-4 lg:grid-cols-7">
-        {select("kategori", "Kategori", Object.entries(segments).map(([k, v]) => [k, shortSegment(v)]), "Tümü")}
-        {select("basamak", "Takipçi basamağı", tiers.map((t) => [t, TIER_NAMES[t] ?? t]), "Tümü")}
-        {select("platform", "Platform", Object.entries(PLATFORM_NAMES), "İkisi de")}
-        {select("havuz", "Trendyol koleksiyonu", Object.entries(POOL_NAMES), "Fark etmez")}
-        {select("min_er", "En az etkileşim", ER_STEPS.map((s) => [s, `%${s} ve üstü`]), "Fark etmez")}
-        {select("min_kalite", "En az kitle kalitesi", QUALITY_STEPS.map((s) => [s, `${s} ve üstü`]), "Fark etmez")}
-        {select("sirala", "Sırala", SORTS.map(([k, l]) => [k, l]), "Takipçi")}
+        {select("kategori", T.segment, Object.entries(segments).map(([k, v]) => [k, shortSegment(v)]), T.all)}
+        {select("basamak", T.tier, tiers.map((t) => [t, TIER_NAMES[t] ?? t]), T.all)}
+        {select("platform", T.platform, Object.entries(PLATFORM_NAMES), T.bothPlatforms)}
+        {select("havuz", T.pool, Object.entries(POOL_NAMES), T.any)}
+        {select("min_er", T.minEr, ER_STEPS.map((s) => [s, T.erStep(s)]), T.any)}
+        {select("min_kalite", T.minQuality, QUALITY_STEPS.map((s) => [s, T.qualityStep(s)]), T.any)}
+        {select("sirala", T.sort, SORTS, T.sorts.followers)}
       </div>
     </div>
   );

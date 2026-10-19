@@ -5,4 +5,5 @@
 - Yöntem değişikliği (`lib/scoring`) test ister; puanı değiştiren her eşik için gerekçeyi `docs/YONTEM.md`'ye yazın.
 - **Gerçek kişi verisi, ekran görüntüsü ya da toplanmış veri PR'a eklemeyin.** Örnekler `ornek-veri/` içindeki uydurma
   hesaplarla yapılır (`npm run ornek-veri`).
-- Arayüz metinleri Türkçe; kod içi açıklamalar Türkçe ya da İngilizce olabilir.
+- Arayüz metinleri Türkçe ve `lib/metinler/tr.ts` içinde toplanıyor (site çerçevesi, filtre çubuğu, rehber taşındı; diğer
+  sayfalar sırada). Yeni metni bileşene gömmeyin, oraya ekleyin. Kod içi açıklamalar Türkçe ya da İngilizce olabilir.

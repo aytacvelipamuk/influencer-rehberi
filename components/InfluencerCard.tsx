@@ -1,7 +1,10 @@
 import Link from "next/link";
 import { formatCount, formatEr, PLATFORM_NAMES, shortSegment, TIER_NAMES } from "@/lib/format";
+import { metin } from "@/lib/metinler";
 import type { Influencer } from "@/lib/types";
 import { Avatar } from "./Avatar";
+
+const T = metin.row;
 
 interface RowProps {
   r: Influencer;
@@ -19,7 +22,7 @@ export function InfluencerRow({ r, segments }: RowProps) {
       <span className="min-w-0">
         <span className="flex items-center gap-1.5 truncate text-lg font-medium transition-colors group-hover:text-pink">
           <span className="truncate">{name}</span>
-          {r.verified && <span className="text-pink" title="Doğrulanmış hesap">✓</span>}
+          {r.verified && <span className="text-pink" title={T.verified}>✓</span>}
         </span>
         <span className="block truncate text-sm text-faint">@{r.handle} · {PLATFORM_NAMES[r.platform]}</span>
       </span>
@@ -28,11 +31,11 @@ export function InfluencerRow({ r, segments }: RowProps) {
           .filter(Boolean)
           .join(" · ")}
       </span>
-      <Metric label="takipçi" value={formatCount(r.followers)} />
-      <Metric label="etkileşim" value={formatEr(r.er)} />
+      <Metric label={T.followers} value={formatCount(r.followers)} />
+      <Metric label={T.engagement} value={formatEr(r.er)} />
       <span className="col-span-2 truncate text-sm text-ink-2 md:col-span-1">
-        {r.pool === "trendyol" && <span className="mr-2 font-medium text-pink">Koleksiyonlu</span>}
-        {r.analysis?.quality.score != null && <span className="mr-2 text-ink">Kalite {r.analysis.quality.score}</span>}
+        {r.pool === "trendyol" && <span className="mr-2 font-medium text-pink">{T.collection}</span>}
+        {r.analysis?.quality.score != null && <span className="mr-2 text-ink">{T.quality(r.analysis.quality.score)}</span>}
         {r.brands.slice(0, 3).join(", ")}
       </span>
     </Link>

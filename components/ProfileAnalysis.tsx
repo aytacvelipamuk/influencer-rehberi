@@ -128,7 +128,7 @@ export function Rhythm({ a }: { a: Analysis }) {
             </li>
           ))}
         </ul>
-        {a.reels_avg_views !== null && <p className="mt-4 text-sm text-ink-2">Reels başına ortalama {formatCount(a.reels_avg_views)} izlenme</p>}
+        {a.reels_avg_views !== null && <p className="mt-4 text-sm text-ink-2">{a.mix.Reel ? "Reels" : "Video"} başına ortalama {formatCount(a.reels_avg_views)} izlenme</p>}
       </div>
       <div>
         <h2 className="font-serif text-3xl">Takipçi seyri</h2>

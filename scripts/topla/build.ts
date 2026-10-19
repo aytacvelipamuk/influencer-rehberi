@@ -7,7 +7,7 @@ import {
   commentRatioComponent, commentsComponent, consistencyComponent, engagementComponent, followingComponent,
   growthComponent, score, viewsComponent,
 } from "../../lib/scoring/quality";
-import type { Influencer } from "../../lib/types";
+import type { Influencer, Platform } from "../../lib/types";
 import type { Row } from "./brightdata";
 import { classify } from "./segments";
 
@@ -15,6 +15,15 @@ const RECENT = 6;
 const str = (v: unknown) => (typeof v === "string" && v ? v : null);
 const num = (v: unknown) => (typeof v === "number" && isFinite(v) ? v : null);
 const handleOf = (r: Row) => (str(r.account) ?? str(r.user_posted) ?? "").replace(/^@/, "").toLowerCase();
+/** TikTok'ta `profile_username` görünen addır; hesap adı yalnız adreste güvenilir. */
+const TIKTOK_HANDLE_RE = /tiktok\.com\/@([A-Za-z0-9._]{2,30})/;
+const tiktokHandleOf = (r: Row) => (TIKTOK_HANDLE_RE.exec(str(r.profile_url) ?? str(r.url) ?? "")?.[1] ?? str(r.account_id) ?? "").toLowerCase();
+const PROFILE_URLS: Record<Platform, (h: string) => string> = {
+  instagram: (h) => `https://www.instagram.com/${h}/`,
+  tiktok: (h) => `https://www.tiktok.com/@${h}`,
+};
+/** Videoları izlenme ortalamasına giren içerik türleri. */
+const VIDEO_KINDS = new Set(["Reel", "Video"]);
 
 export interface Post {
   post_id: string;
@@ -33,17 +42,29 @@ export interface Post {
 
 export interface Account {
   handle: string;
+  platform: Platform;
   profile: Row | null;
+  /** Profil satırı gelmediyse video satırından kurulan geçici profil; gerçek profil gelince yerini alır. */
+  derivedProfile?: boolean;
   posts: Map<string, Post>;
 }
 
 const users = (v: unknown) =>
   Array.isArray(v) ? v.map((u) => (typeof u === "string" ? u : str((u as Row)?.username) ?? str((u as Row)?.profile_name))).filter((u): u is string => !!u) : [];
 
+/** Hesap haritasının anahtarı: Instagram'da çıplak ad (eski dosyalarla uyumlu), TikTok'ta "tiktok:" önekli. */
+export function accountKey(platform: Platform, handle: string): string {
+  return platform === "instagram" ? handle : `${platform}:${handle}`;
+}
+
+function getAccount(acc: Map<string, Account>, platform: Platform, handle: string): Account {
+  return acc.get(accountKey(platform, handle)) ?? { handle, platform, profile: null, posts: new Map() };
+}
+
 export function addProfile(acc: Map<string, Account>, r: Row) {
   const h = handleOf(r);
   if (!h || r.error_code) return;
-  const a = acc.get(h) ?? { handle: h, profile: null, posts: new Map() };
+  const a = getAccount(acc, "instagram", h);
   a.profile = r;
   for (const p of (r.posts as Row[] | undefined) ?? []) {
     const id = String(p.id ?? "");
@@ -58,7 +79,7 @@ export function addPost(acc: Map<string, Account>, r: Row) {
   const h = handleOf(r);
   const id = String(r.post_id ?? "");
   if (!h || !id || r.error_code) return;
-  const a = acc.get(h) ?? { handle: h, profile: null, posts: new Map() };
+  const a = getAccount(acc, "instagram", h);
   const prev = a.posts.get(id);
   const caption = str(r.description) ?? str(r.caption) ?? str(r.post_content);
   const coauthors = [...users(r.coauthor_producers), ...users(r.partnership_details)];
@@ -77,7 +98,7 @@ export function addReel(acc: Map<string, Account>, r: Row) {
   const h = handleOf(r);
   const id = String(r.post_id ?? "");
   if (!h || !id || r.error_code) return;
-  const a = acc.get(h) ?? { handle: h, profile: null, posts: new Map() };
+  const a = getAccount(acc, "instagram", h);
   const prev = a.posts.get(id);
   a.posts.set(id, {
     post_id: id, url: str(r.url) ?? prev?.url ?? null, kind: "Reel", caption: prev?.caption ?? str(r.description),
@@ -86,6 +107,33 @@ export function addReel(acc: Map<string, Account>, r: Row) {
     paid: prev?.paid ?? false, tagged: prev?.tagged ?? [], comment_texts: prev?.comment_texts ?? [],
   });
   acc.set(h, a);
+}
+
+/** TikTok satış/ortaklık bilgisi; boş dizi ya da boş nesne "yok" demektir. */
+const hasCommerce = (v: unknown) =>
+  Array.isArray(v) ? v.length > 0 : typeof v === "object" && v !== null ? Object.keys(v).length > 0 : !!v;
+
+export function addTiktokProfile(acc: Map<string, Account>, r: Row) {
+  const h = tiktokHandleOf(r);
+  if (!h || r.error_code) return;
+  const a = getAccount(acc, "tiktok", h);
+  acc.set(accountKey("tiktok", h), { ...a, profile: r, derivedProfile: false });
+}
+
+export function addTiktokPost(acc: Map<string, Account>, r: Row) {
+  const h = tiktokHandleOf(r);
+  const id = String(r.post_id ?? "");
+  if (!h || !id || r.error_code) return;
+  const a = getAccount(acc, "tiktok", h);
+  const caption = str(r.description);
+  const tagged = ((r.tagged_user as Row[] | undefined) ?? []).map((t) => str(t?.user_handle)).filter((t): t is string => !!t);
+  a.posts.set(id, {
+    post_id: id, url: str(r.url), kind: "Video", caption, likes: num(r.digg_count), comments: num(r.comment_count),
+    views: num(r.play_count), posted_at: str(r.create_time), thumbnail: str(r.preview_image) ?? str(r.cover),
+    paid: isPaid({ caption, paid_partnership: hasCommerce(r.commerce_info) }), tagged, comment_texts: [],
+  });
+  const profile = a.profile ?? { nickname: str(r.profile_username), followers: num(r.profile_followers) };
+  acc.set(accountKey("tiktok", h), { ...a, profile, derivedProfile: a.profile ? a.derivedProfile : true });
 }
 
 export interface Extra {
@@ -105,7 +153,7 @@ export function toInfluencer(a: Account, x: Extra = {}, now = new Date().toISOSt
   const er = engagementRate(measured, followers);
   const avg = (v: number[]) => (v.length ? v.reduce((s, y) => s + y, 0) / v.length : null);
   const likes = measured.map((q) => q.likes ?? 0);
-  const reelViews = posts.filter((q) => q.kind === "Reel" && q.views).map((q) => q.views!);
+  const reelViews = posts.filter((q) => q.kind && VIDEO_KINDS.has(q.kind) && q.views).map((q) => q.views!);
   const partners = new Map<string, number>();
   for (const q of posts) for (const t of q.tagged) partners.set(t, (partners.get(t) ?? 0) + 1);
   const mix: Record<string, number> = {};
@@ -122,11 +170,11 @@ export function toInfluencer(a: Account, x: Extra = {}, now = new Date().toISOSt
   ]);
   const text = [str(p.biography), ...posts.map((q) => q.caption)].filter(Boolean).join(" ");
   return {
-    handle: a.handle, platform: "instagram", pool: x.brands?.length ? "trendyol" : "bagimsiz",
-    display_name: str(p.profile_name) ?? str(p.full_name), followers, tier: tier(followers), er, er_posts: measured.length,
+    handle: a.handle, platform: a.platform, pool: x.brands?.length ? "trendyol" : "bagimsiz",
+    display_name: str(p.profile_name) ?? str(p.full_name) ?? str(p.nickname), followers, tier: tier(followers), er, er_posts: measured.length,
     segments: x.segments?.length ? x.segments : classify(text), marketplaces: [], verified: p.is_verified === true,
     bio: str(p.biography), business_category: str(p.business_category_name), collection_url: null, brands: x.brands ?? [],
-    avatar: x.avatar ?? null, profile_url: `https://www.instagram.com/${a.handle}/`, first_seen_at: now,
+    avatar: x.avatar ?? null, profile_url: PROFILE_URLS[a.platform](a.handle), first_seen_at: now,
     analysis: posts.length ? {
       quality,
       recent: posts.slice(0, RECENT).map((q) => ({ url: q.url ?? "", kind: q.kind, thumb: x.thumbs?.[q.post_id] ?? null, likes: q.likes,

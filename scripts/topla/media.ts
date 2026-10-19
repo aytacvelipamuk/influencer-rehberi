@@ -1,11 +1,11 @@
 /**
  * Görsel indirme: Instagram CDN adresleri imzalı ve birkaç günde ölür — dosyalar data/ altına indirilir.
- * Profil fotoğrafı, en yeni 6 paylaşımın görseli ve öne çıkan hikâye kapakları. 8 paralel indirme.
+ * Profil fotoğrafı, en yeni 6 paylaşımın görseli (TikTok'ta video kapağı) ve öne çıkan hikâye kapakları. 8 paralel indirme.
  */
 import { existsSync, mkdirSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import type { Row } from "./brightdata";
-import type { Account, Extra } from "./build";
+import { type Account, type Extra, accountKey } from "./build";
 
 const WORKERS = 8;
 const THUMBS = 6;
@@ -38,8 +38,9 @@ export async function downloadAll(dataDir: string, accounts: Account[]): Promise
     if (!SAFE.test(a.handle)) return;
     const p = (a.profile ?? {}) as Row;
     const x: Extra = { thumbs: {}, highlights: [] };
-    if (await save(p.profile_image_link as string, path.join(dataDir, "avatars", "instagram", `${a.handle}.jpg`))) {
-      x.avatar = `avatars/instagram/${a.handle}.jpg`;
+    const avatarUrl = (p.profile_image_link ?? p.profile_pic_url_hd ?? p.profile_pic_url) as string | undefined;
+    if (await save(avatarUrl ?? null, path.join(dataDir, "avatars", a.platform, `${a.handle}.jpg`))) {
+      x.avatar = `avatars/${a.platform}/${a.handle}.jpg`;
     }
     const newest = [...a.posts.values()].sort((m, n) => (n.posted_at ?? "").localeCompare(m.posted_at ?? "")).slice(0, THUMBS);
     for (const q of newest) {
@@ -50,7 +51,7 @@ export async function downloadAll(dataDir: string, accounts: Account[]): Promise
       const ok = SAFE.test(id) && (await save(h.image as string, path.join(dataDir, "highlights", `${id}.jpg`)));
       x.highlights!.push({ title: (h.title as string) ?? null, cover: ok ? `highlights/${id}.jpg` : null, url: (h.highlight_url as string) ?? null });
     }
-    out.set(a.handle, x);
+    out.set(accountKey(a.platform, a.handle), x);
   });
   return out;
 }

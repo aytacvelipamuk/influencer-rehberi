@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { type Account, addPost, addProfile, addReel, toInfluencer } from "./build";
+import { type Account, accountKey, addPost, addProfile, addReel, addTiktokPost, addTiktokProfile, toInfluencer } from "./build";
 import { classify } from "./segments";
 
 const PROFIL = {
@@ -69,5 +69,58 @@ describe("toplayıcı dönüştürücüsü", () => {
     expect(classify("newborn baby, toddler mom life")).toEqual(["anne_bebek"]);
     expect(classify("workout routine, gym and running")).toEqual(["spor"]);
     expect(classify("smartphone review, laptop setup")).toEqual(["teknoloji"]);
+  });
+});
+
+describe("TikTok dönüştürücüsü", () => {
+  const PROFIL_TT = {
+    url: "https://www.tiktok.com/@ornek.tt", account_id: "ornek.tt", nickname: "Örnek TT", followers: 120_000, following: 80,
+    biography: "Makyaj ve cilt bakımı", is_verified: false, profile_pic_url: "https://cdn/tt.jpg",
+  };
+  const video = (i: number) => ({
+    post_id: `7${i}`, url: `https://www.tiktok.com/@ornek.tt/video/7${i}`, profile_url: "https://www.tiktok.com/@ornek.tt",
+    profile_username: "Örnek TT", description: "ruj denemesi #makyaj", play_count: 50_000 * i, digg_count: 3_000 * i,
+    comment_count: 100, create_time: `2026-10-1${i}T00:00:00.000Z`, preview_image: `https://cdn/v${i}.jpg`,
+  });
+
+  function ttHesap(): Account {
+    const acc = new Map<string, Account>();
+    addTiktokProfile(acc, PROFIL_TT);
+    for (let i = 1; i <= 3; i++) addTiktokPost(acc, video(i));
+    return acc.get(accountKey("tiktok", "ornek.tt"))!;
+  }
+
+  it("Instagram'daki aynı adlı hesapla karışmaz", () => {
+    expect(accountKey("instagram", "ayse")).toBe("ayse");
+    expect(accountKey("tiktok", "ayse")).toBe("tiktok:ayse");
+  });
+
+  it("profil ve videoları birleştirir; hesap adını adresten okur (profile_username görünen addır)", () => {
+    const a = ttHesap();
+    expect(a).toMatchObject({ handle: "ornek.tt", platform: "tiktok" });
+    expect(a.posts.get("72")).toMatchObject({ kind: "Video", views: 100_000, likes: 6_000, comments: 100, thumbnail: "https://cdn/v2.jpg" });
+  });
+
+  it("TikTok kaydı üretir: platform, profil adresi, izlenme, E.R.", () => {
+    const r = toInfluencer(ttHesap(), {}, "2026-10-19T00:00:00Z");
+    expect(r).toMatchObject({ handle: "ornek.tt", platform: "tiktok", display_name: "Örnek TT", followers: 120_000,
+      tier: "orta", profile_url: "https://www.tiktok.com/@ornek.tt" });
+    expect(r.er).toBeCloseTo(5.08, 1);
+    expect(r.analysis!.reels_avg_views).toBe(100_000);
+    expect(r.segments).toContain("guzellik_bakim");
+  });
+
+  it("profil satırı yoksa takipçiyi video satırından alır", () => {
+    const acc = new Map<string, Account>();
+    addTiktokPost(acc, { ...video(1), profile_followers: 9_000 });
+    const r = toInfluencer(acc.get("tiktok:ornek.tt")!);
+    expect(r.followers).toBe(9_000);
+  });
+
+  it("adresi olmayan ya da hatalı satırları atlar", () => {
+    const acc = new Map<string, Account>();
+    addTiktokPost(acc, { post_id: "1", description: "x" });
+    addTiktokProfile(acc, { url: "https://www.tiktok.com/@kapali", error_code: "dead_page" });
+    expect(acc.size).toBe(0);
   });
 });

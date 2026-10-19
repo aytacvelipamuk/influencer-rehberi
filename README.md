@@ -32,7 +32,7 @@ Canlı örnek: **https://influencer.aytacvelipamuk.com**
 | **Profil** (`/i/instagram/<hesap>`) | Son paylaşımlar (görselli), öne çıkan hikâyeler, kitle kalitesi puanı, paylaşım ritmi, içerik türü, iş birlikleri, takipçi seyri |
 | **Eşleşme raporu** (`/eslestir`, `/rapor/<jeton>`) | Satıcının mağaza linkini ve e-postasını alır; rapor sayfası öneriyi gerekçeleriyle gösterir |
 | **Yöntem kütüphanesi** (`lib/scoring`) | Etkileşim oranı, takipçi basamağı, yorum gerçekliği ve **kitle kalitesi puanı** — saf TypeScript, testli, kendi projenize alınabilir |
-| **Toplayıcı** (`npm run topla`) | Bright Data anahtarınızla Instagram profillerini, gönderilerini ve Reels'i toplar, siteyi doldurur |
+| **Toplayıcı** (`npm run topla`) | Bright Data anahtarınızla Instagram profillerini, gönderilerini ve Reels'i; TikTok profillerini ve videolarını toplar, siteyi doldurur |
 | **Yayın ucu** (`/api/yayin/*`) | Verinizi başka makinede topluyorsanız jetonla siteye yükleyin |
 
 ## 1. Hemen çalıştır (örnek veriyle, 2 dakika)
@@ -50,7 +50,7 @@ npm run dev            # http://localhost:3000
 
 1. [Bright Data](https://brightdata.com) hesabı aç, API anahtarı al.
 2. `.env.example` dosyasını `.env` olarak kopyala, `BRIGHTDATA_API_KEY` yaz.
-3. `hesaplar.ornek.csv` dosyasını `hesaplar.csv` olarak kopyala, Instagram hesaplarını yaz (satır başına bir hesap).
+3. `hesaplar.ornek.csv` dosyasını `hesaplar.csv` olarak kopyala, hesapları yaz (satır başına bir hesap; TikTok için `tiktok:@hesap`).
 4. Maliyeti gör, sonra topla:
 
 ```bash
@@ -65,6 +65,10 @@ npm run dev                 # site artık senin verinle açılır
 - Tekrar çalıştırınca hesaplar güncellenir, takipçi geçmişi birikir (kitle kalitesinin "sıçrama" sinyali buradan gelir).
 
 `hesaplar.csv` biçimi: `hesap[,kategori1;kategori2][,marka1;marka2]` — ayrıntı `hesaplar.ornek.csv` içinde.
+
+**TikTok:** `tiktok:@hesap` ya da `https://www.tiktok.com/@hesap` yaz. TikTok hesabı başına 1 profil + `--gonderi` kadar video
+toplanır (izlenme, beğeni, yorum, kapak). TikTok veri setlerinin kayıt fiyatı Instagram'dan farklı olabilir; önce `--kuru`
+ile tahmine, sonra birkaç hesaplık denemeye bakın.
 
 ## 3. Kendi projene bağla
 
@@ -131,7 +135,7 @@ method and data contract are documented below and in `docs/`.
 - **Match report** — a seller pastes their store link; the report page ranks creators with reasons.
 - **Scoring library** (`lib/scoring`) — dependency-free TypeScript, unit-tested; use it in your own project.
 - **Collector** (`npm run topla`) — bring your own [Bright Data](https://brightdata.com) API key and a list of Instagram
-  handles; it collects profiles, posts and Reels (~$0.03 per account at Oct 2026 prices), shows a cost estimate first
+  (or `tiktok:@handle`) accounts; it collects profiles, posts and Reels (TikTok: profile + videos) (~$0.03 per account at Oct 2026 prices), shows a cost estimate first
   (`--kuru`), and resumes interrupted jobs without paying twice (`--devam`).
 
 **Quick start**
@@ -140,7 +144,7 @@ method and data contract are documented below and in `docs/`.
 git clone https://github.com/aytacvelipamuk/influencer-rehberi && cd influencer-rehberi
 npm install && npm run dev                 # runs with synthetic sample data
 cp .env.example .env                       # add BRIGHTDATA_API_KEY
-cp hesaplar.ornek.csv hesaplar.csv         # one Instagram handle per line
+cp hesaplar.ornek.csv hesaplar.csv         # one handle per line; tiktok:@handle for TikTok
 npm run topla -- --kuru && npm run topla   # estimate, then collect → data/influencers.json
 ```
 

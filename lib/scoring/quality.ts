@@ -104,7 +104,7 @@ export function viewsComponent(reelViews: number[], followers: number | null): C
   if (!v.length || !followers) return null;
   const ratio = mean(v) / followers;
   const points = ratio >= VIEWS_GOOD ? 10 : ratio < VIEWS_LOW ? 2 : 2 + (8 * (ratio - VIEWS_LOW)) / (VIEWS_GOOD - VIEWS_LOW);
-  return comp("izlenme", "Reels izlenme / takipçi", 10, points, +ratio.toFixed(2), `Reels başına ortalama ${n(mean(v))} izlenme (takipçi sayısına oranı %${(ratio * 100).toFixed(0)})`);
+  return comp("izlenme", "Video izlenme / takipçi", 10, points, +ratio.toFixed(2), `Video (Reels) başına ortalama ${n(mean(v))} izlenme (takipçi sayısına oranı %${(ratio * 100).toFixed(0)})`);
 }
 
 export function score(components: (Component | null)[]): QualityResult {

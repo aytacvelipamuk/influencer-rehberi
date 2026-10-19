@@ -6,7 +6,19 @@ export const DATASETS = {
   profiles: "gd_l1vikfch901nx3by4", // Instagram - Profiles: takipçi, bio, son 12 gönderi (görselli), öne çıkan hikâyeler
   posts: "gd_lk5ns7kz21pck8jpis", // Instagram - Posts: beğeni, yorum, metin, son yorumlar, ortaklık
   reels: "gd_lyclm20il4r5helnj", // Instagram - Reels: izlenme ve süre (beğenisi güvenilmez, kullanılmaz)
+  tiktok_profiles: "gd_l1villgoiiidt09ci", // TikTok - Profiles: takipçi, takip, bio, profil fotoğrafı
+  tiktok_posts: "gd_lu702nij2f790tmv9h", // TikTok - Posts (profilden keşif): izlenme, beğeni, yorum, kapak
 } as const;
+export type Kind = keyof typeof DATASETS;
+
+/** Girdi adresi ve keşif biçimi (discover_by); keşifli işler hesap başına `perAccount` kayıt getirir. */
+const INPUTS: Record<Kind, { url: (h: string) => string; discover: string | null }> = {
+  profiles: { url: (h) => `https://www.instagram.com/${h}`, discover: null },
+  posts: { url: (h) => `https://www.instagram.com/${h}`, discover: "url" },
+  reels: { url: (h) => `https://www.instagram.com/${h}`, discover: "url_all_reels" },
+  tiktok_profiles: { url: (h) => `https://www.tiktok.com/@${h}`, discover: null },
+  tiktok_posts: { url: (h) => `https://www.tiktok.com/@${h}`, discover: "profile_url" },
+};
 export const PRICE_PER_RECORD_USD = 0.0015;
 
 const BASE = "https://api.brightdata.com/datasets/v3";
@@ -24,10 +36,11 @@ export class BrightData {
     return res.json();
   }
 
-  async trigger(kind: keyof typeof DATASETS, handles: string[], perAccount?: number): Promise<string> {
-    const discover = kind === "posts" ? "url" : kind === "reels" ? "url_all_reels" : null;
+  async trigger(kind: Kind, handles: string[], perAccount?: number): Promise<string> {
+    const { url, discover } = INPUTS[kind];
     const query = discover ? `&type=discover_new&discover_by=${discover}&limit_per_input=${perAccount}` : "";
-    const body = handles.map((h) => ({ url: `https://www.instagram.com/${h}` }));
+    // TikTok profil keşfi video sayısını girdide de ister.
+    const body = handles.map((h) => (kind === "tiktok_posts" ? { url: url(h), num_of_posts: perAccount } : { url: url(h) }));
     const res = (await this.request(`${BASE}/trigger?dataset_id=${DATASETS[kind]}&include_errors=true${query}`, {
       method: "POST", body: JSON.stringify(body),
     })) as { snapshot_id: string };

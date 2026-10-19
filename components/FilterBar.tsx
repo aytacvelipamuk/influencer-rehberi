@@ -7,10 +7,12 @@ const DEBOUNCE_MS = 300;
 const SORTS = [
   ["followers", "Takipçi"],
   ["er", "Etkileşim oranı"],
+  ["kalite", "Kitle kalitesi"],
   ["brands", "Marka deneyimi"],
   ["newest", "En yeni"],
 ] as const;
 const ER_STEPS = ["1", "2", "3", "5"];
+const QUALITY_STEPS = ["40", "60", "80"];
 
 export function FilterBar({ segments, tiers }: { segments: Record<string, string>; tiers: string[] }) {
   const router = useRouter();
@@ -72,12 +74,13 @@ export function FilterBar({ segments, tiers }: { segments: Record<string, string
           aria-hidden
         />
       </label>
-      <div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-6">
+      <div className="grid grid-cols-2 gap-3 md:grid-cols-4 lg:grid-cols-7">
         {select("kategori", "Kategori", Object.entries(segments).map(([k, v]) => [k, shortSegment(v)]), "Tümü")}
         {select("basamak", "Takipçi basamağı", tiers.map((t) => [t, TIER_NAMES[t] ?? t]), "Tümü")}
         {select("platform", "Platform", Object.entries(PLATFORM_NAMES), "İkisi de")}
         {select("havuz", "Trendyol koleksiyonu", Object.entries(POOL_NAMES), "Fark etmez")}
         {select("min_er", "En az etkileşim", ER_STEPS.map((s) => [s, `%${s} ve üstü`]), "Fark etmez")}
+        {select("min_kalite", "En az kitle kalitesi", QUALITY_STEPS.map((s) => [s, `${s} ve üstü`]), "Fark etmez")}
         {select("sirala", "Sırala", SORTS.map(([k, l]) => [k, l]), "Takipçi")}
       </div>
     </div>

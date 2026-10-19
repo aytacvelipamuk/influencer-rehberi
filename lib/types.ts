@@ -36,7 +36,7 @@ export interface Snapshot {
   influencers: Influencer[];
 }
 
-export type SortKey = "followers" | "er" | "brands" | "newest";
+export type SortKey = "followers" | "er" | "kalite" | "brands" | "newest";
 
 export interface Filters {
   q: string;
@@ -45,6 +45,8 @@ export interface Filters {
   tier: string | null;
   segment: string | null;
   minEr: number | null;
+  /** Kitle kalitesi puanı alt sınırı (0-100); puanı olmayan hesap elenir. */
+  minQuality: number | null;
   brand: string | null;
   sort: SortKey;
   page: number;

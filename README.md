@@ -102,6 +102,7 @@ puana girmez, üçten az sinyalde puan verilmez. Influencer ücreti bilerek gös
 ## Kurulum, Docker, yayın
 
 [docs/KURULUM.md](docs/KURULUM.md): yerel, Docker, Coolify; ortam değişkenleri; yayın ucu.
+Hepsiburada, n11 ya da başka bir pazaryeri için: [docs/UYARLAMA.md](docs/UYARLAMA.md).
 
 ## Katkı
 
